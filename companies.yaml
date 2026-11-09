@@ -275,10 +275,10 @@ companies:
     render: js
 
   # Workday
- - name: "Valeo"
-    type: workday
-    url: "https://valeo.wd3.myworkdayjobs.com/fr-FR/valeo_jobs"
-    render: js
+  - name: "Valeo"
+     type: workday
+     url: "https://valeo.wd3.myworkdayjobs.com/fr-FR/valeo_jobs"
+     render: js
 
   # Ajoutez d'autres entreprises ci-dessous :
   # - name: Nom de l'entreprise
