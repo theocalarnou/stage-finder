@@ -1,0 +1,40 @@
+name: Chercher les offres
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"      # toutes les 6 heures
+  workflow_dispatch:            # bouton "Run workflow" manuel
+  push:
+    paths:
+      - companies.yaml
+      - config.yaml
+      - scrape.py
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install requests beautifulsoup4 pyyaml
+
+      - name: Chercher les offres
+        run: python scrape.py
+
+      - name: Enregistrer les résultats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add offers.json
+          if ! git diff --staged --quiet; then
+            git commit -m "Mise à jour des offres"
+            git push
+          fi
