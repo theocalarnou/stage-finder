@@ -16,6 +16,7 @@ permissions:
 jobs:
   scrape:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
 
@@ -24,7 +25,10 @@ jobs:
           python-version: "3.12"
 
       - name: Installer les dépendances
-        run: pip install requests beautifulsoup4 pyyaml
+        run: pip install requests beautifulsoup4 pyyaml playwright
+
+      - name: Installer le navigateur (sites JavaScript)
+        run: playwright install --with-deps chromium
 
       - name: Chercher les offres
         run: python scrape.py
