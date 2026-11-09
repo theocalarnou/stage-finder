@@ -92,10 +92,51 @@ def allowed_by_robots(url, respect=True):
     return rp.can_fetch(HEADERS["User-Agent"], url)
 
 
-def fetch(url, settings):
+_pw = {}  # navigateur Playwright, démarré à la demande et réutilisé
+
+
+def _browser():
+    if "browser" not in _pw:
+        try:
+            from playwright.sync_api import sync_playwright
+        except ImportError:
+            raise RuntimeError("Playwright n'est pas installé")
+        _pw["ctx"] = sync_playwright().start()
+        _pw["browser"] = _pw["ctx"].chromium.launch()
+    return _pw["browser"]
+
+
+def close_browser():
+    if "browser" in _pw:
+        _pw["browser"].close()
+        _pw["ctx"].stop()
+        _pw.clear()
+
+
+def fetch_rendered(url):
+    """Charge la page dans un vrai navigateur (pour les sites 100 % JavaScript)."""
+    page = _browser().new_page(extra_http_headers={"Accept-Language": HEADERS["Accept-Language"]},
+                               user_agent=HEADERS["User-Agent"])
+    try:
+        try:
+            page.goto(url, wait_until="networkidle", timeout=45000)
+        except Exception:
+            pass  # certains sites ne "se calment" jamais : on prend ce qui est affiché
+        # fait défiler la page pour déclencher le chargement des offres paresseux
+        for _ in range(6):
+            page.mouse.wheel(0, 4000)
+            page.wait_for_timeout(600)
+        return page.content()
+    finally:
+        page.close()
+
+
+def fetch(url, settings, render_js=False):
     if not allowed_by_robots(url, settings.get("respect_robots_txt", True)):
         raise RuntimeError("accès refusé par le robots.txt du site")
     time.sleep(settings.get("request_delay_seconds", 2))
+    if render_js:
+        return fetch_rendered(url)
     resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
     if "charset" not in resp.headers.get("content-type", "").lower():
@@ -167,7 +208,8 @@ def _jsonld_jobs(soup, base_url):
 
 def scrape_generic(company, profile, settings):
     base = company["url"]
-    soup = BeautifulSoup(fetch(base, settings), "html.parser")
+    js = company.get("render") == "js"
+    soup = BeautifulSoup(fetch(base, settings, render_js=js), "html.parser")
     results = _jsonld_jobs(soup, base)
     seen = {r["url"] for r in results}
     anchors = soup.select(company["link_selector"]) if company.get("link_selector") else soup.find_all("a", href=True)
@@ -189,7 +231,7 @@ def scrape_generic(company, profile, settings):
             if r["description"]:
                 continue
             try:
-                page = BeautifulSoup(fetch(r["url"], settings), "html.parser")
+                page = BeautifulSoup(fetch(r["url"], settings, render_js=js), "html.parser")
                 r["description"] = clean_text(page.get_text(" ", strip=True))
             except Exception:
                 pass
@@ -260,6 +302,7 @@ def main(config_path="config.yaml", companies_path="companies.yaml"):
             runs.append({"company": name, "ok": False, "message": str(e)[:300], "found": 0, "last_run": ts})
             print(f"ERR {name}: {e}", file=sys.stderr)
 
+    close_browser()
     data = {
         "updated": ts,
         "offers": sorted(offers.values(), key=lambda o: (not o["active"], -o["score"], o["first_seen"])),
