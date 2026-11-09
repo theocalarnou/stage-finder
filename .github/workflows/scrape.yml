@@ -13,6 +13,11 @@ on:
 permissions:
   contents: write
 
+# un seul passage à la fois : les suivants attendent leur tour au lieu de se marcher dessus
+concurrency:
+  group: chercher-les-offres
+  cancel-in-progress: false
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -40,5 +45,10 @@ jobs:
           git add offers.json
           if ! git diff --staged --quiet; then
             git commit -m "Mise à jour des offres"
-            git push
+            # si le dépôt a changé pendant la recherche, on récupère d'abord les changements
+            for i in 1 2 3; do
+              git pull --rebase -X theirs origin "${GITHUB_REF_NAME}" && git push && exit 0
+              sleep 5
+            done
+            exit 1
           fi
