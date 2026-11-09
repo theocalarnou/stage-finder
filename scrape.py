@@ -206,6 +206,28 @@ def _jsonld_jobs(soup, base_url):
     return jobs
 
 
+# Mots qu'on trouve dans les liens de menu ("Nos offres de stage", "Internships", "Voir toutes les offres"...)
+# Un lien composé UNIQUEMENT de ces mots n'est pas une offre mais une rubrique du site.
+GENERIC_WORDS = set("""
+stage stages stagiaire stagiaires internship internships intern interns trainee trainees praktikum praktika
+praktikant praktikanten werkstudent thesis theses placement placements alternance alternances apprentissage
+apprenti apprentice apprenticeship apprenticeships vie v i e offre offres offer offers job jobs emploi emplois
+career careers carriere carrieres opportunity opportunities poste postes student students etudiant etudiants
+graduate graduates jeune jeunes diplome diplomes young programme programmes program programs de des d du la le
+les l et en nos vos notre votre toutes tous tout voir our your all see view and for the with us nous rejoindre
+rejoignez join recrutement recruitment postuler apply here ici plus more savoir learn about decouvrir discover
+search recherche rechercher find trouver annee year summer ete fin d etudes end of studies spontaneous
+candidature spontanee application
+""".split())
+
+
+def is_navigation(text, link, base):
+    if link.rstrip("/") == base.rstrip("/"):
+        return True
+    words = re.findall(r"[a-z0-9]+", norm(text))
+    return all(w in GENERIC_WORDS or w.isdigit() for w in words)
+
+
 def scrape_generic(company, profile, settings):
     base = company["url"]
     js = company.get("render") == "js"
@@ -220,6 +242,8 @@ def scrape_generic(company, profile, settings):
         link = urljoin(base, href).split("#")[0]
         text = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
         if link in seen or len(text) < 6 or len(text) > 250:
+            continue
+        if is_navigation(text, link, base):
             continue
         if company.get("link_selector") or profile.is_internship(text) or profile.is_internship(link):
             seen.add(link)
