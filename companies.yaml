@@ -34,7 +34,10 @@ companies:
     type: generic
     url: https://www.exemple.com/carrieres/offres-de-stage
     enabled: false
-    # fetch_details: true
+    
+  - name: RIVR (test)
+    type: lever
+    token: rivr
 
   # ---- Ajoutez vos entreprises ci-dessous (aérospatial, automobile, robotique, dispositifs médicaux, ferroviaire...) ----
   # - name: Nom de l'entreprise
