@@ -19,10 +19,6 @@
 # Les sites changent souvent d'adresse. Ajoutez/supprimez des entreprises à votre guise.
 
 companies:
-  - name: RIVR (test)
-    type: lever
-    token: rivr
-
   # 4 stages 2027/2028 dont mécatronique (vérifié)
   - name: "AP Racing"
     type: generic
@@ -279,10 +275,9 @@ companies:
     render: js
 
   # Workday
-  - name: "Valeo"
-    type: generic
-    url: "https://www.valeo.com/en/offers/list/"
-    render: js
+ - name: "Valeo"
+    type: workday
+    url: "https://valeo.wd3.myworkdayjobs.com/fr-FR/valeo_jobs"
 
   # Ajoutez d'autres entreprises ci-dessous :
   # - name: Nom de l'entreprise
