@@ -37,6 +37,9 @@ jobs:
 
       - name: Chercher les offres
         run: python scrape.py
+        env:
+          ADZUNA_APP_ID: ${{ secrets.ADZUNA_APP_ID }}
+          ADZUNA_APP_KEY: ${{ secrets.ADZUNA_APP_KEY }}
 
       - name: Enregistrer les résultats
         run: |
