@@ -1,0 +1,13 @@
+{
+ "updated": "2026-11-09T08:25:30+00:00",
+ "offers": [],
+ "runs": [
+  {
+   "company": "RIVR (test)",
+   "ok": true,
+   "message": "6 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-09T08:25:30+00:00"
+  }
+ ]
+}
