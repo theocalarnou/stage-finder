@@ -7,7 +7,7 @@ import re
 import sys
 import time
 import unicodedata
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urljoin, urlparse
 from urllib.robotparser import RobotFileParser
 
@@ -262,7 +262,108 @@ def scrape_generic(company, profile, settings):
     return results
 
 
-SOURCES = {"generic": scrape_generic, "greenhouse": scrape_greenhouse, "lever": scrape_lever}
+def scrape_workday(company, profile, settings):
+    """Sites Workday (xxx.wdN.myworkdayjobs.com) : on interroge leur moteur de recherche public
+    avec des mots-clés de stage, au lieu de lire la page (100 % JavaScript)."""
+    u = urlparse(company["url"])
+    host = u.netloc
+    tenant = company.get("tenant") or host.split(".")[0]
+    parts = [p for p in u.path.split("/") if p and not re.fullmatch(r"[a-z]{2}-[A-Z]{2}", p)]
+    if not parts:
+        raise ValueError("adresse Workday incomplète : il manque le nom du site après le domaine")
+    site = parts[0]
+    root = f"{u.scheme}://{host}"
+    api = f"{root}/wday/cxs/{tenant}/{site}/jobs"
+    if not allowed_by_robots(api, settings.get("respect_robots_txt", True)):
+        raise RuntimeError("accès refusé par le robots.txt du site")
+    terms = company.get("search_terms") or ["stage", "stagiaire", "internship", "intern", "praktikum"]
+    headers = {**HEADERS, "Accept": "application/json", "Content-Type": "application/json"}
+    results, seen = [], set()
+    for term in terms:
+        offset = 0
+        while offset < MAX_OFFERS_PER_COMPANY:
+            time.sleep(settings.get("request_delay_seconds", 2))
+            resp = requests.post(api, headers=headers, timeout=TIMEOUT,
+                                 json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": term})
+            resp.raise_for_status()
+            data = resp.json()
+            posts = data.get("jobPostings") or []
+            for p in posts:
+                path = p.get("externalPath") or ""
+                link = f"{root}/{site}{path}"
+                if not path or link in seen:
+                    continue
+                seen.add(link)
+                results.append({"title": (p.get("title") or "").strip(), "url": link,
+                                "location": p.get("locationsText") or "", "description": "", "_path": path})
+            offset += 20
+            if not posts or offset >= (data.get("total") or 0):
+                break
+    if company.get("fetch_details"):
+        for r in results:
+            try:
+                time.sleep(settings.get("request_delay_seconds", 2))
+                d = requests.get(f"{root}/wday/cxs/{tenant}/{site}{r['_path']}", headers=headers, timeout=TIMEOUT).json()
+                r["description"] = clean_text((d.get("jobPostingInfo") or {}).get("jobDescription", ""))
+            except Exception:
+                pass
+    for r in results:
+        r.pop("_path", None)
+    return results
+
+
+ADZUNA_API = os.environ.get("ADZUNA_API", "https://api.adzuna.com/v1/api")
+
+
+def scrape_adzuna(company, profile, settings):
+    """Agrégateur Adzuna, via son API officielle (clés gratuites sur developer.adzuna.com).
+    Les clés sont lues dans les secrets GitHub ADZUNA_APP_ID et ADZUNA_APP_KEY."""
+    app_id, app_key = os.environ.get("ADZUNA_APP_ID"), os.environ.get("ADZUNA_APP_KEY")
+    if not app_id or not app_key:
+        raise RuntimeError("clés Adzuna manquantes (secrets ADZUNA_APP_ID et ADZUNA_APP_KEY)")
+    pages = int(company.get("pages", 1))
+    results, seen, errors, ok = [], set(), [], 0
+    for country, queries in (company.get("searches") or {}).items():
+        for q in queries:
+            for page in range(1, pages + 1):
+                time.sleep(max(3, settings.get("request_delay_seconds", 2)))  # quota gratuit : rester sous ~20 requêtes/min
+                try:
+                    params ={"app_id": app_id, "app_key": app_key, "what": q,
+                              "results_per_page": 50, "content-type": "application/json"}
+                    if company.get("max_days_old"):
+                        params["max_days_old"] = company["max_days_old"]
+                    resp = requests.get(
+                        f"{ADZUNA_API}/jobs/{country}/search/{page}", params=params,
+                        headers={"User-Agent": HEADERS["User-Agent"]}, timeout=TIMEOUT)
+                    resp.raise_for_status()
+                    items = resp.json().get("results") or []
+                    ok += 1
+                except Exception as e:
+                    errors.append(f"{country}/{q}: {str(e).replace(app_key, '***').replace(app_id, '***')[:80]}")
+                    break
+                for j in items:
+                    link = j.get("redirect_url") or ""
+                    if not link or link in seen:
+                        continue
+                    seen.add(link)
+                    results.append({
+                        "title": clean_text(j.get("title", ""), 300),
+                        "url": link,
+                        "employer": ((j.get("company") or {}).get("display_name") or "").strip(),
+                        "location": (j.get("location") or {}).get("display_name", ""),
+                        "description": clean_text(j.get("description", "")),
+                    })
+                if len(items) < 50:
+                    break
+    if not ok and errors:
+        raise RuntimeError("; ".join(errors[:3]))
+    if errors:
+        print(f"    Adzuna, recherches en erreur : {'; '.join(errors[:5])}", file=sys.stderr)
+    return results
+
+
+SOURCES = {"generic": scrape_generic, "greenhouse": scrape_greenhouse, "lever": scrape_lever,
+           "workday": scrape_workday, "adzuna": scrape_adzuna}
 
 
 def filter_and_score(raw, profile):
@@ -283,9 +384,14 @@ def offer_id(company, url):
 
 
 def main(config_path="config.yaml", companies_path="companies.yaml"):
-    settings = load_yaml(config_path)
+    try:
+        settings = load_yaml(config_path)
+        companies = [c for c in load_yaml(companies_path).get("companies", []) if c.get("enabled", True)]
+    except yaml.YAMLError as e:
+        mark = getattr(e, "problem_mark", None)
+        where = f" (vers la ligne {mark.line + 1})" if mark else ""
+        sys.exit(f"ERREUR de mise en forme dans un fichier .yaml{where} : vérifiez les espaces en début de ligne.\n{e}")
     profile = Profile(settings)
-    companies = [c for c in load_yaml(companies_path).get("companies", []) if c.get("enabled", True)]
 
     previous = {}
     if os.path.exists(OUTPUT):
@@ -311,14 +417,19 @@ def main(config_path="config.yaml", companies_path="companies.yaml"):
                 seen_ids.add(oid)
                 old = previous.get(oid, {})
                 offers[oid] = {
-                    "id": oid, "company": name, "title": o["title"], "url": o["url"],
+                    "id": oid, "source": name, "company": o.get("employer") or name,
+                    "title": o["title"], "url": o["url"],
                     "location": o.get("location", ""),
                     "description": o.get("description", "")[:600],
                     "score": o["score"],
                     "first_seen": old.get("first_seen", ts), "last_seen": ts, "active": True,
                 }
-            for oid, o in offers.items():  # offres disparues du site de cette entreprise
-                if o["company"] == name and oid not in seen_ids:
+            # offres disparues de cette source. Pour un agrégateur (Adzuna), une offre peut juste être
+            # sortie des premiers résultats : on ne la retire qu'après 14 jours sans la revoir.
+            grace = 14 if c.get("type") == "adzuna" else 0
+            limit = (datetime.now(timezone.utc) - timedelta(days=grace)).isoformat(timespec="seconds")
+            for oid, o in offers.items():
+                if o.get("source", o["company"]) == name and oid not in seen_ids and o.get("last_seen", "") <= limit:
                     o["active"] = False
             runs.append({"company": name, "ok": True, "message": f"{len(raw)} annonces lues", "found": len(found), "last_run": ts})
             print(f"OK  {name}: {len(found)} offres de stage sur {len(raw)} annonces")
