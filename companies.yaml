@@ -1,0 +1,42 @@
+# Liste des entreprises à surveiller.
+# Le site visite ces pages à intervalle régulier et en extrait les offres de stage.
+#
+# Types de sources :
+#   generic    : page "carrières" classique (HTML). Le scraper cherche les liens d'offres
+#                et les données structurées JSON-LD "JobPosting".
+#   greenhouse : entreprise qui utilise Greenhouse. token = identifiant dans
+#                https://boards.greenhouse.io/<token>
+#   lever      : entreprise qui utilise Lever. token = identifiant dans
+#                https://jobs.lever.co/<token>
+#
+# Options facultatives pour "generic" :
+#   fetch_details: true   -> ouvre chaque offre pour analyser sa description (meilleur score, plus lent)
+#   link_selector: "css"  -> sélecteur CSS précis des liens d'offres si l'extraction automatique échoue
+#
+# Note : les sites qui chargent leurs offres uniquement en JavaScript ne sont pas pris en charge dans cette version.
+#
+# IMPORTANT : vérifiez chaque URL dans votre navigateur avant de l'activer.
+# Les sites changent souvent d'adresse. Ajoutez/supprimez des entreprises à votre guise.
+
+companies:
+  # ---- Exemples à adapter (remplacez par les entreprises qui vous intéressent) ----
+  - name: Exemple Greenhouse
+    type: greenhouse
+    token: remplacez-par-le-token
+    enabled: false
+
+  - name: Exemple Lever
+    type: lever
+    token: remplacez-par-le-token
+    enabled: false
+
+  - name: Exemple page carrières
+    type: generic
+    url: https://www.exemple.com/carrieres/offres-de-stage
+    enabled: false
+    # fetch_details: true
+
+  # ---- Ajoutez vos entreprises ci-dessous (aérospatial, automobile, robotique, dispositifs médicaux, ferroviaire...) ----
+  # - name: Nom de l'entreprise
+  #   type: generic
+  #   url: https://.../offres-stage

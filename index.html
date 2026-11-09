@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stage Finder</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --text:#1c2430; --muted:#66707e; --line:#e2e6ec; --accent:#1f5fd6; --good:#1a7f4b; --warn:#b26a00; --bad:#b3261e; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14181e; --card:#1c222b; --text:#e8ecf2; --muted:#9aa5b4; --line:#2c3541; --accent:#6ea0ff; --good:#4cc38a; --warn:#e0a040; --bad:#ef7b73; }
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--text); }
+  header { padding:16px; background:var(--card); border-bottom:1px solid var(--line); }
+  h1 { margin:0; font-size:19px; }
+  .sub { color:var(--muted); font-size:13px; margin-top:2px; }
+  main { max-width:820px; margin:0 auto; padding:14px 16px 60px; }
+  input, select, textarea, button { font:inherit; color:var(--text); }
+  input[type=search], select, textarea { width:100%; padding:10px; border:1px solid var(--line); border-radius:10px; background:var(--card); }
+  .filters { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px; }
+  .filters input[type=search] { grid-column:1 / -1; }
+  .chks { grid-column:1 / -1; display:flex; flex-wrap:wrap; gap:14px; color:var(--muted); font-size:14px; }
+  .chks label { display:flex; gap:6px; align-items:center; }
+  .stats { display:flex; gap:8px; overflow-x:auto; margin-bottom:12px; padding-bottom:2px; }
+  .stat { flex:0 0 auto; background:var(--card); border:1px solid var(--line); border-radius:10px; padding:6px 12px; font-size:12px; color:var(--muted); }
+  .stat b { display:block; font-size:18px; color:var(--text); }
+  .offer { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px; margin-bottom:10px; }
+  .offer.inactive { opacity:.55; }
+  .title { font-weight:600; margin:0 0 4px; }
+  .meta { color:var(--muted); font-size:13px; }
+  .badge { display:inline-block; font-size:12px; padding:1px 8px; border-radius:99px; border:1px solid var(--line); margin-right:6px; }
+  .badge.hi { color:var(--good); border-color:var(--good); } .badge.mid { color:var(--warn); border-color:var(--warn); } .badge.off { color:var(--bad); border-color:var(--bad); }
+  .actions { display:flex; flex-direction:column; gap:8px; margin-top:10px; }
+  a.apply { display:block; text-align:center; text-decoration:none; background:var(--accent); color:#fff; padding:11px; border-radius:10px; font-weight:600; }
+  details { margin-top:10px; } summary { cursor:pointer; color:var(--muted); font-size:14px; }
+  textarea { min-height:80px; margin-top:8px; }
+  .empty { text-align:center; color:var(--muted); padding:32px 12px; background:var(--card); border:1px dashed var(--line); border-radius:12px; }
+  .tools { margin-top:26px; } .tools button { padding:10px 14px; border:1px solid var(--line); border-radius:10px; background:var(--card); margin:0 8px 8px 0; }
+  table { width:100%; border-collapse:collapse; font-size:13px; margin-top:8px; } td, th { text-align:left; padding:6px 4px; border-bottom:1px solid var(--line); vertical-align:top; }
+  .ok { color:var(--good); } .ko { color:var(--bad); }
+</style>
+</head>
+<body>
+<header>
+  <h1>Stage Finder · mécatronique &amp; mécanique</h1>
+  <div class="sub" id="info">Chargement…</div>
+</header>
+<main>
+  <div class="stats" id="stats"></div>
+  <div class="filters">
+    <input type="search" id="q" placeholder="Rechercher (titre, entreprise, lieu…)">
+    <select id="company"><option value="">Toutes les entreprises</option></select>
+    <select id="status"><option value="">Tous les statuts</option></select>
+    <div class="chks">
+      <label><input type="checkbox" id="relevant" checked> Pertinentes seulement</label>
+      <label><input type="checkbox" id="activeOnly" checked> Encore en ligne</label>
+    </div>
+  </div>
+  <div id="list"></div>
+
+  <div class="tools">
+    <details>
+      <summary>État des sources</summary>
+      <div id="runs"></div>
+    </details>
+    <details>
+      <summary>Sauvegarde de mon suivi (statuts et notes)</summary>
+      <p class="meta">Votre suivi est enregistré dans ce navigateur uniquement. Pour le garder en sécurité ou le passer sur un autre appareil :</p>
+      <button id="export">Copier ma sauvegarde</button>
+      <button id="import">Restaurer depuis le presse-papiers</button>
+      <div class="meta" id="toolmsg"></div>
+    </details>
+  </div>
+</main>
+
+<script>
+const STATUS = {nouvelle:"Nouvelle", interessee:"Intéressée", candidature_envoyee:"Candidature envoyée", entretien:"Entretien", refusee:"Refusée", ignoree:"Ignorée"};
+const KEY = "stagefinder-tracking-v1";
+const $ = id => document.getElementById(id);
+const esc = s => (s ?? "").toString().replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+
+// Suivi local (tolère l'absence de stockage)
+let track = {};
+try { track = JSON.parse(localStorage.getItem(KEY) || "{}"); } catch (e) { track = {}; }
+const save = () => { try { localStorage.setItem(KEY, JSON.stringify(track)); } catch (e) {} };
+const t = id => track[id] || { status:"nouvelle", notes:"" };
+
+let data = { offers: [], runs: [], updated: null };
+for (const [k, v] of Object.entries(STATUS)) $("status").insertAdjacentHTML("beforeend", `<option value="${k}">${v}</option>`);
+
+async function load() {
+  try {
+    const r = await fetch("offers.json?" + Date.now());
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch (e) {
+    data = { offers: [], runs: [], updated: null };
+  }
+  $("info").textContent = data.updated
+    ? "Dernière mise à jour : " + new Date(data.updated).toLocaleString("fr-FR", { dateStyle:"medium", timeStyle:"short" })
+    : "Aucune donnée pour l'instant : lancez le robot depuis GitHub (voir le guide).";
+  const companies = [...new Set(data.offers.map(o => o.company))].sort();
+  $("company").innerHTML = '<option value="">Toutes les entreprises</option>' + companies.map(c => `<option>${esc(c)}</option>`).join("");
+  $("runs").innerHTML = data.runs.length
+    ? `<table><tr><th>Entreprise</th><th>Résultat</th></tr>` + data.runs.map(r => `<tr><td>${esc(r.company)}</td><td class="${r.ok ? "ok" : "ko"}">${esc(r.ok ? r.found + " offre(s) de stage" : "Erreur : " + r.message)}</td></tr>`).join("") + "</table>"
+    : '<p class="meta">Aucun passage enregistré.</p>';
+  render();
+}
+
+function render() {
+  const q = $("q").value.toLowerCase();
+  const list = data.offers.filter(o => {
+    const s = t(o.id).status;
+    return (!$("company").value || o.company === $("company").value)
+      && (!$("status").value || s === $("status").value)
+      && (!$("relevant").checked || o.score > 0)
+      && (!$("activeOnly").checked || o.active)
+      && (!q || (o.title + " " + o.company + " " + o.location + " " + o.description).toLowerCase().includes(q));
+  });
+  const n = s => data.offers.filter(o => o.active && t(o.id).status === s).length;
+  $("stats").innerHTML = [["Offres", data.offers.filter(o => o.active).length], ["Nouvelles", n("nouvelle")], ["Intéressantes", n("interessee")], ["Envoyées", n("candidature_envoyee")], ["Entretiens", n("entretien")]]
+    .map(([l, v]) => `<div class="stat"><b>${v}</b>${l}</div>`).join("");
+
+  if (!list.length) {
+    $("list").innerHTML = `<div class="empty">Aucune offre à afficher.</div>`;
+    return;
+  }
+  $("list").innerHTML = list.map(o => {
+    const tr = t(o.id), cls = o.score >= 6 ? "hi" : o.score >= 2 ? "mid" : "";
+    return `<div class="offer ${o.active ? "" : "inactive"}" data-id="${esc(o.id)}">
+      <p class="title">${esc(o.title)}</p>
+      <div class="meta"><span class="badge ${cls}">pertinence ${o.score}</span>${esc(o.company)}${o.location ? " · " + esc(o.location) : ""}
+        ${o.active ? "" : '<span class="badge off">retirée du site</span>'}</div>
+      <div class="actions">
+        <a class="apply" href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">Voir l'offre et postuler ↗</a>
+        <select class="st">${Object.entries(STATUS).map(([k, v]) => `<option value="${k}" ${k === tr.status ? "selected" : ""}>${v}</option>`).join("")}</select>
+      </div>
+      <details><summary>Notes${o.description ? " et description" : ""}</summary>
+        ${o.description ? `<p class="meta">${esc(o.description.slice(0, 500))}${o.description.length > 500 ? "…" : ""}</p>` : ""}
+        <textarea class="notes" placeholder="Vos notes (contact, date de relance…)">${esc(tr.notes)}</textarea>
+      </details></div>`;
+  }).join("");
+}
+
+$("list").addEventListener("change", e => {
+  if (!e.target.classList.contains("st")) return;
+  const id = e.target.closest(".offer").dataset.id;
+  track[id] = { ...t(id), status: e.target.value };
+  if (e.target.value === "candidature_envoyee" && !track[id].applied_at) track[id].applied_at = new Date().toISOString();
+  save(); render();
+});
+$("list").addEventListener("input", e => {
+  if (!e.target.classList.contains("notes")) return;
+  const id = e.target.closest(".offer").dataset.id;
+  track[id] = { ...t(id), notes: e.target.value };
+  save();
+});
+["q", "company", "status", "relevant", "activeOnly"].forEach(id => $(id).addEventListener("input", render));
+
+$("export").addEventListener("click", async () => {
+  try { await navigator.clipboard.writeText(JSON.stringify(track)); $("toolmsg").textContent = "Sauvegarde copiée : collez-la dans une note pour la garder."; }
+  catch (e) { $("toolmsg").textContent = "Copie impossible sur ce navigateur."; }
+});
+$("import").addEventListener("click", async () => {
+  try {
+    const obj = JSON.parse(await navigator.clipboard.readText());
+    if (typeof obj !== "object" || Array.isArray(obj)) throw 0;
+    track = obj; save(); render(); $("toolmsg").textContent = "Suivi restauré.";
+  } catch (e) { $("toolmsg").textContent = "Le presse-papiers ne contient pas une sauvegarde valide."; }
+});
+
+load();
+</script>
+</body>
+</html>

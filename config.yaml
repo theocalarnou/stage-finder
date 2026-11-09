@@ -1,0 +1,59 @@
+# Profil de recherche : modifiez librement ces listes (insensible à la casse et aux accents).
+
+# Un résultat n'est gardé que s'il contient au moins un de ces termes (titre, lien ou description)
+internship_terms:
+  - stage
+  - stagiaire
+  - internship
+  - intern
+  - pfe
+  - "fin d'études"
+  - "end of studies"
+  - praktikum
+  - "co-op"
+
+# Mots-clés de votre domaine : chaque mot trouvé ajoute des points au score de pertinence
+field_keywords:
+  - mécatronique
+  - mecatronique
+  - mechatronics
+  - mécanique
+  - mechanical
+  - conception mécanique
+  - cao
+  - cad
+  - solidworks
+  - catia
+  - creo
+  - robotique
+  - robotics
+  - automatisme
+  - automation
+  - systèmes embarqués
+  - embedded
+  - capteurs
+  - actionneurs
+  - simulation
+  - ansys
+  - matlab
+  - simulink
+  - r&d
+  - bureau d'études
+  - design engineer
+  - test engineer
+  - prototypage
+
+# Les offres contenant un de ces termes sont écartées
+exclude_terms:
+  - "développeur web"
+  - comptabilité
+  - marketing digital
+  - ressources humaines
+
+
+
+# Pause entre deux requêtes vers un même site (secondes) : restez poli avec les serveurs
+request_delay_seconds: 2
+
+# Respecter le fichier robots.txt des sites (fortement recommandé)
+respect_robots_txt: true
