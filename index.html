@@ -70,6 +70,7 @@
       <button id="import">Restaurer depuis le presse-papiers</button>
       <div class="meta" id="toolmsg"></div>
     </details>
+    <p class="meta">Certaines offres proviennent de <a href="https://www.adzuna.fr" target="_blank" rel="noopener">Jobs by Adzuna</a>.</p>
   </div>
 </main>
 
@@ -129,7 +130,7 @@ function render() {
     const tr = t(o.id), cls = o.score >= 6 ? "hi" : o.score >= 2 ? "mid" : "";
     return `<div class="offer ${o.active ? "" : "inactive"}" data-id="${esc(o.id)}">
       <p class="title">${esc(o.title)}</p>
-      <div class="meta"><span class="badge ${cls}">pertinence ${o.score}</span>${esc(o.company)}${o.location ? " · " + esc(o.location) : ""}
+      <div class="meta"><span class="badge ${cls}">pertinence ${o.score}</span>${esc(o.company)}${o.location ? " · " + esc(o.location) : ""}${o.source && o.source !== o.company ? " · via " + esc(o.source) : ""}
         ${o.active ? "" : '<span class="badge off">retirée du site</span>'}</div>
       <div class="actions">
         <a class="apply" href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">Voir l'offre et postuler ↗</a>
