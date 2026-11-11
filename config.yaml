@@ -1,66 +1,368 @@
-# Profil de recherche : modifiez librement ces listes (insensible à la casse et aux accents).
+# Liste des entreprises à surveiller.
+# Le site visite ces pages à intervalle régulier et en extrait les offres de stage.
+#
+# Types de sources :
+#   generic    : page "carrières" classique (HTML). Le scraper cherche les liens d'offres
+#                et les données structurées JSON-LD "JobPosting".
+#   greenhouse : entreprise qui utilise Greenhouse. token = identifiant dans
+#                https://boards.greenhouse.io/<token>
+#   workday    : entreprise qui utilise Workday (adresse en ...myworkdayjobs.com/...). Mettez l'adresse
+#                de la page de recherche d'offres dans url. Le robot y cherche les mots de stage.
+#   adzuna     : recherches sur l'agrégateur Adzuna (voir l'entrée en tête de liste)
+#   lever      : entreprise qui utilise Lever. token = identifiant dans
+#                https://jobs.lever.co/<token>
+#
+# Options facultatives pour "generic" :
+#   render: js            -> pour les sites dont les offres s'affichent en JavaScript (offres absentes
+#                            quand on regarde le code de la page). Un peu plus lent.
+#   fetch_details: true   -> ouvre chaque offre pour analyser sa description (meilleur score, plus lent)
+#   all_are_internships: true -> la page est déjà filtrée sur les stages : garder aussi les offres
+#                            dont le titre ne contient pas le mot « stage »
+#   link_pattern: "texte"   -> morceau d'adresse commun à tous les liens d'offres du site
+#   link_selector: "css"  -> sélecteur CSS précis des liens d'offres si l'extraction automatique échoue
+#
+# IMPORTANT : vérifiez chaque URL dans votre navigateur avant de l'activer.
+# Les sites changent souvent d'adresse. Ajoutez/supprimez des entreprises à votre guise.
 
-# Un résultat n'est gardé que s'il contient au moins un de ces termes (titre, lien ou description)
-internship_terms:
-  - stage
-  - stagiaire
-  - internship
-  - intern
-  - pfe
-  - "fin d'études"
-  - "end of studies"
-  - praktikum
-  - "co-op"
-  - praktikant
-  - praktika
-  - werkstudent
-  - abschlussarbeit
-  - thesis
-  - placement
-  - trainee
+companies:
+  # ---- Agrégateur Adzuna (API officielle). Nécessite les clés dans les secrets GitHub, voir le guide.
+  # searches : par pays (fr, gb, de, it, es, nl, at, ch...), la liste des recherches à faire.
+  - name: Adzuna
+    type: adzuna
+    searches:
+      fr:
+        - stage mécatronique
+        - stage ingénieur mécanique
+        - stage conception mécanique
+        - stage sport automobile
+        - stage R&D automobile
+        - stage bureau d'études
+      gb:
+        - mechanical engineering internship
+        - mechatronics internship
+        - motorsport placement
+      de:
+        - Praktikum Maschinenbau
+        - Praktikum Mechatronik
+        - Praktikum Motorsport
+      it:
+        - stage ingegneria meccanica
+      es:
+        - prácticas ingeniería mecánica
 
-# Mots-clés de votre domaine : chaque mot trouvé ajoute des points au score de pertinence
-field_keywords:
-  - mécatronique
-  - mecatronique
-  - mechatronics
-  - mécanique
-  - mechanical
-  - conception mécanique
-  - cao
-  - cad
-  - solidworks
-  - catia
-  - creo
-  - robotique
-  - robotics
-  - automatisme
-  - automation
-  - systèmes embarqués
-  - embedded
-  - capteurs
-  - actionneurs
-  - simulation
-  - ansys
-  - matlab
-  - simulink
-  - r&d
-  - bureau d'études
-  - design engineer
-  - test engineer
-  - prototypage
+  # 4 stages 2027/2028 dont mécatronique (vérifié)
+  - name: "AP Racing"
+    type: generic
+    url: "https://careers.apracing.com/vacancies"
 
-# Les offres contenant un de ces termes sont écartées
-exclude_terms:
-  - "développeur web"
-  - comptabilité
-  - marketing digital
-  - ressources humaines
+  # vérifié
+  - name: "Team WRT"
+    type: generic
+    url: "https://www.w-racingteam.com/manufacturing/careers"
 
+  # vérifié
+  - name: "United Autosports"
+    type: generic
+    url: "https://unitedautosports.com/careers"
 
+  # vérifié
+  - name: "Iron Lynx"
+    type: generic
+    url: "https://www.ironlynx.com/work-with-us/"
 
-# Pause entre deux requêtes vers un même site (secondes) : restez poli avec les serveurs
-request_delay_seconds: 2
+  # vérifié
+  - name: "Pankl Racing (Allemagne)"
+    type: generic
+    url: "https://pankl.com/en/career/jobs-germany/"
 
-# Respecter le fichier robots.txt des sites (fortement recommandé)
-respect_robots_txt: true
+  # non vérifié
+  - name: "Pankl Racing (Autriche)"
+    type: generic
+    url: "https://pankl.com/racing/en/career/jobs"
+
+  # liste non ouverte
+  - name: "Prodrive"
+    type: generic
+    url: "https://careers.prodrive.com/vacancies"
+
+  # non vérifié
+  - name: "X-raid"
+    type: generic
+    url: "https://www.x-raid.de/en/about-us/jobs/"
+
+  # Personio
+  - name: "Manthey Racing"
+    type: generic
+    url: "https://manthey-racing-gmbh.jobs.personio.de/"
+    render: js
+
+  # Personio
+  - name: "KW automotive"
+    type: generic
+    url: "https://kwautomotive.jobs.personio.de/"
+    render: js
+
+  # Teamtailor, 11 stages vus
+  - name: "HORSE Powertrain"
+    type: generic
+    url: "https://horse.teamtailor.com/jobs"
+    render: js
+
+  # Teamtailor, non vérifié
+  - name: "Cosworth"
+    type: generic
+    url: "https://currentopportunities.cosworth.com/jobs"
+    render: js
+
+  # non vérifié
+  - name: "Hankook (Europe)"
+    type: generic
+    url: "https://hankooktire.onlyfy.jobs/"
+    render: js
+
+  # non vérifié
+  - name: "Toyota Gazoo Racing Europe"
+    type: generic
+    url: "https://careers.toyota-racing.com"
+    render: js
+
+  # Workday
+  - name: "Alpine Racing (Workday)"
+    type: workday
+    url: "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers"
+
+  # page stages et emplois
+  - name: "Hendrick Motorsports"
+    type: generic
+    url: "https://www.hendrickmotorsports.com/about/careers"
+    render: js
+
+  # Workday
+  - name: "Multimatic (Workday)"
+    type: workday
+    url: "https://multimatic.wd10.myworkdayjobs.com/MMEC"
+
+  # non vérifié
+  - name: "Dana (étudiants)"
+    type: generic
+    url: "https://jobs.dana.com/go/Students/9149600/"
+    render: js
+
+  # filtre stages
+  - name: "KTM (stages)"
+    type: generic
+    url: "https://jobs.ktm.com/jobs?jobProfiles=Praktika%2C%20Duale%20Studien"
+    render: js
+
+  # stages listés
+  - name: "Ducati"
+    type: generic
+    url: "https://careers.ducati.com/jobs.php"
+    render: js
+
+  # non vérifié
+  - name: "Ferrari"
+    type: generic
+    url: "https://jobs.ferrari.com/"
+    render: js
+
+  # pas spécifique à Škoda Motorsport
+  - name: "Škoda Auto"
+    type: generic
+    url: "https://skoda-auto.jobs.cz/en"
+    render: js
+
+  # SuccessFactors
+  - name: "AVL (stages et thèses)"
+    type: generic
+    url: "https://jobs.avl.com/go/StudentInternshipThesis/9282801/"
+    render: js
+
+  # filtre Internship
+  - name: "MAHLE (stages)"
+    type: generic
+    url: "https://careers.mahle.com/search/?searchby=location&createNewAlert=false&q=&locationsearch=&geolocation=&optionsFacetsDD_country=&optionsFacetsDD_customfield1=&optionsFacetsDD_customfield2=Internship&optionsFacetsDD_facility="
+    render: js
+
+  # Oracle, très JavaScript
+  - name: "Garrett Motion"
+    type: generic
+    url: "https://ehth.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2001"
+    render: js
+
+  # non vérifié
+  - name: "Marelli"
+    type: generic
+    url: "https://jobs.marelli.com/"
+    render: js
+
+  # pas de filtre stage
+  - name: "BorgWarner"
+    type: generic
+    url: "https://www.borgwarner.com/careers/job-search"
+    render: js
+
+  # surtout des stages aux États-Unis
+  - name: "Stratasys"
+    type: generic
+    url: "https://careers.stratasys.com/viewalljobs/"
+    render: js
+
+  # non vérifié
+  - name: "Sandvik"
+    type: generic
+    url: "https://www.home.sandvik/en/careers/job-search/"
+    render: js
+
+  # non vérifié
+  - name: "Syensqo"
+    type: generic
+    url: "https://careers.solvay.com"
+    render: js
+
+  # SmartRecruiters
+  - name: "Applus+ IDIADA"
+    type: generic
+    url: "https://careers.smartrecruiters.com/ApplusIDIADA1"
+    render: js
+
+  # non vérifié
+  - name: "HORIBA"
+    type: generic
+    url: "https://www.horiba.com/int/company/career/"
+
+  # liste non confirmée
+  - name: "FEV"
+    type: generic
+    url: "https://career.fev.com/en/jobs/"
+    render: js
+
+  # page France non trouvée
+  - name: "Akkodis"
+    type: generic
+    url: "https://www.akkodis.com/en/job-search"
+    render: js
+
+  # SuccessFactors
+  - name: "Bertrandt"
+    type: generic
+    url: "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=de_DE"
+    render: js
+
+  # iCIMS
+  - name: "Expleo"
+    type: generic
+    url: "https://careers-expleo-jobs.icims.com/jobs/search"
+    render: js
+
+  # Talentsoft
+  - name: "ALTEN"
+    type: generic
+    url: "https://alten-career.talent-soft.com/job/list-of-all-jobs.aspx?all=1&mode=layer"
+    render: js
+
+  # 1400 offres, 300 lues au maximum
+  - name: "Rheinmetall"
+    type: generic
+    url: "https://www.rheinmetall.com/en/career/vacancies"
+    render: js
+
+  # SAP
+  - name: "Schaeffler"
+    type: generic
+    url: "https://jobs.schaeffler.com/"
+    render: js
+
+  # Workday
+  - name: "Valeo"
+    type: workday
+    url: "https://valeo.wd3.myworkdayjobs.com/fr-FR/valeo_jobs"
+
+  # ---- Ajoutées à partir de vos adresses ----
+  # filtres de votre adresse repris : France + type de contrat
+  - name: "Airbus"
+    type: workday
+    url: "https://ag.wd3.myworkdayjobs.com/en-US/Airbus?locationCountry=54c5b6971ffb4bf0b116fe7651ec789a&workerSubType=f5811cef9cb50193723ed01d470a6e15"
+
+  - name: "ATR"
+    type: workday
+    url: "https://ag.wd3.myworkdayjobs.com/en-US/Airbus?hiringCompany=f5811cef9cb501a6bae2d3124e0a975c"
+
+  # filtres de votre adresse repris : France + types de contrat
+  - name: "Michelin"
+    type: workday
+    url: "https://michelinhr.wd3.myworkdayjobs.com/fr-FR/Michelin?Location_Country=54c5b6971ffb4bf0b116fe7651ec789a&jobPostingEmployeeContractType=cae294f2796f01c0ad3f12aaa917b121&jobPostingEmployeeContractType=cae294f2796f01df790a1faaa917b621"
+
+  # page déjà filtrée sur les stages (première page de résultats seulement)
+  - name: "Safran"
+    type: generic
+    url: "https://www.safran-group.com/fr/offres?contracts%5B0%5D=42-stage&sort=relevance&page=1"
+    render: js
+    all_are_internships: true
+    link_pattern: "/fr/offres/[^/?]+"
+
+  # page déjà filtrée sur les stages (première page de résultats seulement)
+  - name: "Dassault Aviation"
+    type: generic
+    url: "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/liste-offres.aspx?lcid=1036&facet_JobDescription_Contract=4161"
+    all_are_internships: true
+    link_pattern: "offre-de-emploi/emploi-"
+
+  - name: "Stellantis"
+    type: generic
+    url: "https://careers.stellantis.com/fr-ca/"
+    render: js
+
+  - name: "Forvia"
+    type: generic
+    url: "https://jobs.faurecia.com/careers?pid=563087396829609&Employment%20Type=apprentice&Employment%20Type=trainee&Employment%20Type=vie&domain=faurecia.com&sort_by=relevance&hl=en&triggerGoButton=false"
+    render: js
+
+  - name: "MBDA"
+    type: generic
+    url: "https://www.mbda-systems.com/country-fr/careers/job-vacancies?advanced_filters=1"
+    render: js
+
+  - name: "KNDS"
+    type: generic
+    url: "https://recrutement.knds.fr/"
+    render: js
+
+  - name: "Hexcel"
+    type: generic
+    url: "https://www.hexcel.com/careers/"
+    render: js
+
+  - name: "UTAC"
+    type: generic
+    url: "https://www.utac.com/fr-fr/carriere/postes-vacants"
+    render: js
+
+  - name: "SEGULA Technologies"
+    type: generic
+    url: "https://careers.segulatechnologies.com/fr/annonces"
+    render: js
+
+  - name: "Capgemini"
+    type: generic
+    url: "https://www.capgemini.com/fr-fr/carrieres/rejoignez-nous/nos-offres-demploi/?page=1&size=11&country_code=fr-fr"
+    render: js
+
+  - name: "IAV"
+    type: generic
+    url: "https://www.iav.com/career/joboffers/"
+    render: js
+
+  - name: "BWI Group"
+    type: generic
+    url: "https://www.bwigroup.com/careers/"
+    render: js
+
+  - name: "Bombardier (ingénierie)"
+    type: generic
+    url: "https://jobs.bombardier.com/go/Engineering/8995501/"
+
+  # Ajoutez d'autres entreprises ci-dessous :
+  # - name: Nom de l'entreprise
+  #   type: generic
+  #   url: https://.../offres-stage
