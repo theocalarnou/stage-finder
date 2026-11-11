@@ -8,7 +8,7 @@ import sys
 import time
 import unicodedata
 from datetime import datetime, timedelta, timezone
-from urllib.parse import urljoin, urlparse
+from urllib.parse import parse_qs, urljoin, urlparse
 from urllib.robotparser import RobotFileParser
 
 import requests
@@ -235,6 +235,8 @@ def scrape_generic(company, profile, settings):
     results = _jsonld_jobs(soup, base)
     seen = {r["url"] for r in results}
     anchors = soup.select(company["link_selector"]) if company.get("link_selector") else soup.find_all("a", href=True)
+    # link_pattern : morceau d'adresse (expression régulière) qui reconnaît les liens d'offres
+    pattern = re.compile(company["link_pattern"]) if company.get("link_pattern") else None
     for a in anchors:
         href = a.get("href")
         if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
@@ -245,7 +247,10 @@ def scrape_generic(company, profile, settings):
             continue
         if is_navigation(text, link, base):
             continue
-        if company.get("link_selector") or profile.is_internship(text) or profile.is_internship(link):
+        by_pattern = bool(pattern and pattern.search(link))
+        if pattern and company.get("link_selector") and not by_pattern:
+            continue
+        if company.get("link_selector") or by_pattern or profile.is_internship(text) or profile.is_internship(link):
             seen.add(link)
             results.append({"title": text, "url": link, "location": "", "description": ""})
         if len(results) >= MAX_OFFERS_PER_COMPANY:
@@ -276,7 +281,10 @@ def scrape_workday(company, profile, settings):
     api = f"{root}/wday/cxs/{tenant}/{site}/jobs"
     if not allowed_by_robots(api, settings.get("respect_robots_txt", True)):
         raise RuntimeError("accès refusé par le robots.txt du site")
-    terms = company.get("search_terms") or ["stage", "stagiaire", "internship", "intern", "praktikum"]
+    # les filtres choisis sur le site (pays, type de contrat...) sont dans l'adresse : on les reprend
+    facets = {k: v for k, v in parse_qs(u.query).items() if k not in ("q", "locale")}
+    default_terms = [""] if company.get("all_are_internships") else ["stage", "stagiaire", "internship", "intern", "praktikum"]
+    terms = company.get("search_terms") or default_terms
     headers = {**HEADERS, "Accept": "application/json", "Content-Type": "application/json"}
     results, seen = [], set()
     for term in terms:
@@ -284,7 +292,7 @@ def scrape_workday(company, profile, settings):
         while offset < MAX_OFFERS_PER_COMPANY:
             time.sleep(settings.get("request_delay_seconds", 2))
             resp = requests.post(api, headers=headers, timeout=TIMEOUT,
-                                 json={"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": term})
+                                 json={"appliedFacets": facets, "limit": 20, "offset": offset, "searchText": term})
             resp.raise_for_status()
             data = resp.json()
             posts = data.get("jobPostings") or []
@@ -366,13 +374,14 @@ SOURCES = {"generic": scrape_generic, "greenhouse": scrape_greenhouse, "lever": 
            "workday": scrape_workday, "adzuna": scrape_adzuna}
 
 
-def filter_and_score(raw, profile):
+def filter_and_score(raw, profile, trust_internship=False):
+    """trust_internship : la page est déjà filtrée sur les stages, on ne réexige pas le mot 'stage'."""
     out = []
     for r in raw:
         if not r.get("title") or not r.get("url"):
             continue
         blob = f"{r['title']} {r.get('description', '')} {r['url']}"
-        if not profile.is_internship(blob) or profile.excluded(r["title"]):
+        if (not trust_internship and not profile.is_internship(blob)) or profile.excluded(r["title"]):
             continue
         r["score"] = profile.score(r["title"], r.get("description", ""))
         out.append(r)
@@ -410,7 +419,7 @@ def main(config_path="config.yaml", companies_path="companies.yaml"):
             if c.get("type", "generic") not in SOURCES:
                 raise ValueError(f"type inconnu : {c.get('type')}")
             raw = SOURCES[c.get("type", "generic")](c, profile, settings)
-            found = filter_and_score(raw, profile)
+            found = filter_and_score(raw, profile, trust_internship=bool(c.get("all_are_internships")))
             seen_ids = set()
             for o in found:
                 oid = offer_id(name, o["url"])
