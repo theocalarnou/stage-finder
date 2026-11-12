@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T11:13:22+00:00",
+ "updated": "2026-11-12T11:20:56+00:00",
  "offers": [
   {
    "id": "562ee1fbe1d330b0",
@@ -11,7 +11,7 @@
    "description": "",
    "score": 6,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -24,7 +24,7 @@
    "description": "",
    "score": 6,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -37,7 +37,20 @@
    "description": "",
    "score": 6,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b08b623da85146e5",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Prédiction du comportement mécanique des textiles architecturés par simulation (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Prdiction-du-comportement-mcanique-des-textiles-architecturs-par-simulation--F-H-_R-2026040343",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 6,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -50,7 +63,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -63,33 +76,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "9a2c45ae7ea486b6",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage en Développement d’outils de simulation CFD et thermique (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-en-Dveloppement-d-outils-de-simulation-CFD-et-thermique--H-F-_JOBREQ_50286761",
-   "location": "",
-   "description": "",
-   "score": 3,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "b7e0e546debb4ea9",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage en Mécanique des fluides (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-en-Mcanique-des-fluides--H-F-_JOBREQ_50286754",
-   "location": "",
-   "description": "",
-   "score": 3,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -102,7 +89,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -115,7 +102,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -128,7 +115,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -141,7 +128,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -154,7 +141,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -167,7 +154,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -180,7 +167,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -193,7 +180,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -206,7 +193,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -219,7 +206,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -232,7 +219,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -245,7 +232,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -258,7 +245,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -271,7 +258,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -284,7 +271,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -297,7 +284,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -310,7 +297,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -323,7 +310,137 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "fdf8cb8d37ea4aa2",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage en Développement d’outils de simulation CFD et thermique (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-en-Dveloppement-d-outils-de-simulation-CFD-et-thermique--H-F-_JOBREQ_50286761",
+   "location": "",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "49f70e22859f356b",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage en Mécanique des fluides (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-en-Mcanique-des-fluides--H-F-_JOBREQ_50286754",
+   "location": "",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "1f70a58d7172e6fe",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Développement d’estimateurs de charges mécaniques par Intelligence Artificielle (f/h)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/Stage-2027---Dveloppement-d-estimateurs-de-charges-mcaniques-par-Intelligence-Artificielle--f-h-_JR10440584",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "21acd6e89f6d3ac2",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 -Stage en Développement système audio - Bureau d'études sièges pilotes(ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Rochefort/STAGE-2027---Bureau-d-tudes-Siges-pilotes---Dveloppement-systme-audio--ALL-GENDER-_JR10446170",
+   "location": "Rochefort",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "4b843225432b44ba",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Stage d’ingénierie en simulation numérique / Propulsion spatiale (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027---Stage-d-ingnierie-en-simulation-numrique---Propulsion-spatiale--F-H-_JR10443370",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2b94fc9b16d2c9fe",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Simulation & robustesse des processus industriels (ALL GENDER) (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Maulte-Area/STAGE-2027---Simulation---robustesse-des-processus-industriels--ALL-GENDER---ALL-GENDER-_JR10446755",
+   "location": "Méaulte Area",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "8d4cde0709a60bf5",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship - Automation of Measurement Uncertainty Calculation for FTI Measurements",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Cugnaux-AD---Francazal-Base-101/ATR---Internship---Automation-of-Measurement-Uncertainty-Calculation-for-FTI-Measurements_JR10454116",
+   "location": "Cugnaux (AD - Francazal Base 101)",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "902d62c353fbfb79",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Simulation numérique performances pneumatiques (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Simulation-numrique-performances-pneumatiques--F-H-_R-2026041553",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "bce0202083336c4e",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Propagation des incertitudes dans un modèle de simulation pneumatique (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Propagation-des-incertitudes-dans-un-modle-de-simulation-pneumatique--F-H-_R-2026038172",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a0d7854ebd20e5e5",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage – Etude simulation par éléments finis autour des bandes convoyeuses (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Etude-simulation-par-lments-finis-autour-des-bandes-convoyeuses--F-H-_R-2026039215",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -336,7 +453,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -349,7 +466,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -362,7 +479,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -375,7 +492,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -388,7 +505,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -401,7 +518,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -414,7 +531,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -427,7 +544,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -440,7 +557,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -453,7 +570,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -466,7 +583,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -479,7 +596,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -492,7 +609,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -505,7 +622,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -518,7 +635,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -531,7 +648,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -544,7 +661,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -557,7 +674,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -570,7 +687,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -583,7 +700,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -596,7 +713,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -609,7 +726,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -622,7 +739,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -635,7 +752,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -648,7 +765,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -661,7 +778,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -674,7 +791,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -687,7 +804,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -700,85 +817,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "1227995e627095ce",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage Logistique & Métrologie (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Logistique---Mtrologie--H-F-_JOBREQ_50286774",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "92baaf96fc43815e",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage Calculs dynamiques non linéaires (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Calculs-dynamiques-non-linaires--H-F-_JOBREQ_50286769",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "8ee28875f964cacf",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage Développement d’une chaîne automatisée d’optimisation de géométries par CFD et intelligence artificielle (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Dveloppement-d-une-chane-automatise-d-optimisation-de-gomtries-par-CFD-et-intelligence-artificielle--H-F-_JOBREQ_50286745",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "7820648ed9ca6fa2",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage Modélisation et validation des systèmes de contrôle (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Modlisation-et-validation-des-systmes-de-contrle--H-F-_JOBREQ_50286741",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "0315479ac908a401",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage Création d'outils d’analyse de la concurrence (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Modlisation-et-validation-des-systmes-de-contrle--H-F-_JOBREQ_50286733",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "243a71e54ca04cc3",
-   "source": "Alpine Racing (Workday)",
-   "company": "Alpine Racing (Workday)",
-   "title": "CS27 - Bac +5 - Stage Coordinateur Business Développement (H/F)",
-   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Coordinateur-Business-Dveloppement--H-F-_JOBREQ_50286394",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -791,7 +830,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -804,7 +843,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -817,7 +856,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -830,7 +869,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -843,7 +882,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -856,7 +895,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -869,7 +908,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -882,7 +921,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -895,7 +934,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -908,20 +947,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "08dcb183d01411c5",
-   "source": "Michelin",
-   "company": "Michelin",
-   "title": "Work-Study & Internships",
-   "url": "https://recrutement.michelin.fr/en/students/work-linked-trainings-internships",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -934,7 +960,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -947,7 +973,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -960,7 +986,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -973,7 +999,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -986,7 +1012,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -999,7 +1025,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1012,7 +1038,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1025,7 +1051,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1038,7 +1064,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1051,7 +1077,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1064,7 +1090,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1077,7 +1103,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1090,7 +1116,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1103,7 +1129,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1116,7 +1142,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1129,7 +1155,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1142,7 +1168,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1155,7 +1181,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1168,7 +1194,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1181,7 +1207,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1194,7 +1220,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1207,7 +1233,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1220,7 +1246,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1233,7 +1259,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1246,7 +1272,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1259,7 +1285,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1272,7 +1298,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1285,7 +1311,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1298,7 +1324,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1311,7 +1337,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1324,7 +1350,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1337,7 +1363,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1350,7 +1376,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1363,7 +1389,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1376,7 +1402,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1389,7 +1415,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1402,7 +1428,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1415,7 +1441,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1428,7 +1454,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1441,7 +1467,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1454,7 +1480,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1467,7 +1493,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1480,7 +1506,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1493,7 +1519,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1506,7 +1532,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1519,72 +1545,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "c018ad3ed7d6946c",
-   "source": "UTAC",
-   "company": "UTAC",
-   "title": "Juriste International et Compliance Confirmé Legal",
-   "url": "https://jobs.smartrecruiters.com/UTAC/744000160183029-juriste-international-et-compliance-confirme",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "eedf7280af71f185",
-   "source": "UTAC",
-   "company": "UTAC",
-   "title": "Stagiaire CEM EMC Emissions & Acoustic - France",
-   "url": "https://jobs.smartrecruiters.com/UTAC/744000159374769-stagiaire-cem",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "4704fd0cab27188b",
-   "source": "UTAC",
-   "company": "UTAC",
-   "title": "Stage Ingénieur – Ingénierie Crash & Essais sur Catapulte Inverse Safety - France",
-   "url": "https://jobs.smartrecruiters.com/UTAC/744000152369019-stage-ingenieur-ingenierie-crash-essais-sur-catapulte-inverse",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "252cf213d099994f",
-   "source": "UTAC",
-   "company": "UTAC",
-   "title": "Stagiaire Ingénieur essais automobile - dynamique du véhicule Durability - France",
-   "url": "https://jobs.smartrecruiters.com/UTAC/744000159403939-stagiaire-ingenieur-essais-automobile-dynamique-du-vehicule",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
-   "active": true
-  },
-  {
-   "id": "690d036b6646b4ec",
-   "source": "UTAC",
-   "company": "UTAC",
-   "title": "Stagiaire Ingénieur essais automobile - fiabilité Durability - France",
-   "url": "https://jobs.smartrecruiters.com/UTAC/744000159373065-stagiaire-ingenieur-essais-automobile-fiabilite",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1597,7 +1558,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1610,7 +1571,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1623,7 +1584,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1636,7 +1597,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1649,7 +1610,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1662,7 +1623,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1675,7 +1636,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1688,7 +1649,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1701,7 +1662,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1714,7 +1675,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1727,7 +1688,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1740,7 +1701,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1753,7 +1714,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1766,7 +1727,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1779,7 +1740,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1792,7 +1753,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1805,7 +1766,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1818,7 +1779,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1831,7 +1792,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1844,7 +1805,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1857,7 +1818,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1870,7 +1831,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T14:40:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1883,7 +1844,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1896,7 +1857,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1909,7 +1870,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1922,7 +1883,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1935,7 +1896,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1948,7 +1909,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1961,7 +1922,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1974,7 +1935,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -1987,7 +1948,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2000,7 +1961,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2013,7 +1974,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2026,7 +1987,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2039,7 +2000,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2052,7 +2013,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2065,7 +2026,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2078,7 +2039,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2091,7 +2052,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2104,7 +2065,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2117,7 +2078,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2130,7 +2091,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2143,7 +2104,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2156,7 +2117,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2169,7 +2130,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2182,7 +2143,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2195,7 +2156,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2208,7 +2169,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2221,7 +2182,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2234,7 +2195,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2247,7 +2208,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2260,7 +2221,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2273,7 +2234,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2286,7 +2247,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2299,7 +2260,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2312,7 +2273,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2325,7 +2286,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2338,7 +2299,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2351,7 +2312,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2364,7 +2325,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2377,7 +2338,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2390,7 +2351,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2403,7 +2364,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2416,7 +2377,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2429,7 +2390,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2442,7 +2403,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2455,7 +2416,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2468,7 +2429,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2481,7 +2442,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2494,7 +2455,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2507,7 +2468,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2520,7 +2481,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2533,7 +2494,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2546,7 +2507,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2559,7 +2520,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2572,7 +2533,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2585,7 +2546,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2598,7 +2559,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2611,7 +2572,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2624,7 +2585,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2637,7 +2598,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2650,7 +2611,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2663,7 +2624,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2676,7 +2637,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2689,7 +2650,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2702,7 +2663,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2715,7 +2676,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2728,7 +2689,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2741,7 +2702,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2754,7 +2715,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2767,7 +2728,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2780,7 +2741,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2793,7 +2754,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2806,7 +2767,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2819,7 +2780,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2832,7 +2793,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2845,7 +2806,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2858,7 +2819,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2871,7 +2832,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2884,7 +2845,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2897,7 +2858,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2910,7 +2871,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T23:04:43+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2923,7 +2884,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T06:36:36+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2936,7 +2897,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T06:36:36+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2949,7 +2910,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2962,7 +2923,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2975,7 +2936,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -2988,7 +2949,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3001,7 +2962,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3014,7 +2975,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3027,7 +2988,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3040,7 +3001,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3053,7 +3014,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3066,7 +3027,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3079,7 +3040,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3092,7 +3053,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3105,7 +3066,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3118,7 +3079,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3131,7 +3092,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3144,7 +3105,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3157,7 +3118,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3170,7 +3131,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
@@ -3183,21 +3144,1789 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
   },
   {
-   "id": "d0a28674b0965f0e",
-   "source": "Škoda Auto",
-   "company": "Škoda Auto",
-   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
-   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=8777b7c0-0c54-441f-96e6-cb43a7ae9fbc",
+   "id": "798d3822a3cd85eb",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Logistique & Métrologie (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Logistique---Mtrologie--H-F-_JOBREQ_50286774",
    "location": "",
    "description": "",
    "score": 0,
-   "first_seen": "2026-11-12T11:13:22+00:00",
-   "last_seen": "2026-11-12T11:13:22+00:00",
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
    "active": true
+  },
+  {
+   "id": "b4844e46ccc65632",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Calculs dynamiques non linéaires (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Calculs-dynamiques-non-linaires--H-F-_JOBREQ_50286769",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "7def920f4bde4dc2",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Développement d’une chaîne automatisée d’optimisation de géométries par CFD et intelligence artificielle (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Dveloppement-d-une-chane-automatise-d-optimisation-de-gomtries-par-CFD-et-intelligence-artificielle--H-F-_JOBREQ_50286745",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2f2df946fa5838ce",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Modélisation et validation des systèmes de contrôle (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Modlisation-et-validation-des-systmes-de-contrle--H-F-_JOBREQ_50286741",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e5c17122a9523fc5",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Création d'outils d’analyse de la concurrence (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Modlisation-et-validation-des-systmes-de-contrle--H-F-_JOBREQ_50286733",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "0f970396aa337a75",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Coordinateur Business Développement (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Coordinateur-Business-Dveloppement--H-F-_JOBREQ_50286394",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "bd98a360fd09b643",
+   "source": "Multimatic (Workday)",
+   "company": "Multimatic (Workday)",
+   "title": "Purchasing Co-op",
+   "url": "https://multimatic.wd10.myworkdayjobs.com/MMEC/job/East-Gwillimbury-Ontario/Purchasing-Co-op_JR102589",
+   "location": "East Gwillimbury, Ontario",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "cbab2a07644f6ec3",
+   "source": "Škoda Auto",
+   "company": "Škoda Auto",
+   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
+   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=aba09f7a-9f81-4871-aab3-44ac709d95ad",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "21928ebb243d3a4a",
+   "source": "Bertrandt",
+   "company": "Bertrandt",
+   "title": "English (United States)",
+   "url": "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=en_US",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b10f09203e5c79a6",
+   "source": "Bertrandt",
+   "company": "Bertrandt",
+   "title": "Français (France)",
+   "url": "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=fr_FR",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "32734e078d24c1b3",
+   "source": "Bertrandt",
+   "company": "Bertrandt",
+   "title": "Schülerpraktikum BORS / BOGY / freiwillig",
+   "url": "https://bertrandt.jobs.hr.cloud.sap/job/Sch%C3%BClerpraktikum-BORS-BOGY-freiwillig/586-de_DE",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "0dc1000f0120981f",
+   "source": "Bertrandt",
+   "company": "Bertrandt",
+   "title": "Praktikum/Werkstudententätigkeit Teilezerlegung (m/w/d)",
+   "url": "https://bertrandt.jobs.hr.cloud.sap/job/PraktikumWerkstudentent%C3%A4tigkeit-Teilezerlegung-%28mwd%29/4741-de_DE",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "59f4339e3dad8cab",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Gestion de Projet IA & Innovation Qualité  - Structure A350 (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Gestion-de-Projet-IA---Innovation-Qualit----Structure-A350--H-F-_JR10438192",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f32135b7d8da4ae3",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Stage en gestion de projet IA  & Innovation Qualité  (H/F)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Assistant-Chef-de-Projet-IA---Innovation-Qualit----ALL-GENDER-_JR10432177",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "4f2482935859e1d8",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 – Déploiement de l'intelligence artificielle dans les métiers programme (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Dploiement-de-l-intelligence-artificielle-dans-les-mtiers-programme--ALL-GENDER-_JR10437705",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "399c724b0e24641c",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Support aux Opérations Recrutement (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/Stage-2027---Support-aux-Oprations-Recrutement--ALL-GENDER-_JR10436694",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f4bf34897989b121",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 (h/f) Industrialisation de gestion d'inventaire de sécurité",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027--h-f--Industrialisation-de-gestion-d-inventaire-de-scurit_JR10444566",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "53134d52f695c044",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Audit Interne (h/f)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/Stage-2027---Audit-Interne--h-f-_JR10442348",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "28c03c393877ea8d",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Contrôle de gestion (H/F)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/Stage-2027---Contrle-de-gestion--H-F-_JR10443214",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "1a800a205cfe6e84",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Chargé de Projet Santé sécurité environnement (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Sant-Scurit-Environnement-en-production--ALL-GENDER-_JR10439525",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a2f68c9d9d5dbe28",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage : Ingénieur / Technicien Manufacturing Composites",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Bordeaux-Area/Stage---Ingnieur---Technicien-Manufacturing-Composites_JR10456946",
+   "location": "Bordeaux Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "06489b400eccd20e",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 – Assistant(e) de Projet Transformation & Performance Réseau Support Technique (h/f)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/STAGE-2027---Assistant-e--de-Projet-Transformation---Performance-Rseau-Support-Technique--h-f-_JR10445163",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "be89ef4ceb94df73",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Stage en digitalisation et creation de contenus pédagogiques - A350 (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Intgration---Digitalisation-Formation--ALL-GENDER-_JR10440793",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "ae8667a9c53301ae",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Gestion de projet IA et Qualité Industrialisation (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Gestion-de-projet-IA-et-Qualit-Industrialisation--ALL-GENDER-_JR10442058",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "429dc77ee09aa253",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 -  Stage en Assurance Qualité et Métrologie (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Maulte-Area/STAGE-2027----Stage-en-Assurance-Qualit-et-Mtrologie--ALL-GENDER-_JR10445444",
+   "location": "Méaulte Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "678ecab63cd8aea9",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Gestion de Projet IA & Innovation Qualité - Structure A350 (H/F)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Gestion-de-Projet-IA---Innovation-Qualit---Structure-A350--ALL-GENDER-_JR10437937",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e014f72adf79561a",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Stagiaire en Développement d'un robot de test pour applications smartphone et web (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/Stage-2027---Stagiaire-en-Dveloppement-d-un-robot-de-test-pour-applications-smartphone-et-web--F-H-_JR10445365",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2f49ce96442c5797",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Stagiaire en Gouvernance et organisation des données de gestion des sites (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027---Stagiaire-en-Gouvernance-et-organisation-des-donnes-de-gestion-des-sites--F-H-_JR10444970",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "36d186bd1fe37b18",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 -  Ingénieur Amélioration Continue & Performance Qualité (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/Stage-2027----Ingnieur-Amlioration-Continue---Performance-Qualit--ALL-GENDER-_JR10446778",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "991efdbe28476195",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Optimisation des processus et outils du quotidien (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Montoir-de-Bretagne/STAGE-2027---Optimisation-des-processus-et-outils-du-quotidien--ALL-GENDER-_JR10447287",
+   "location": "Montoir de Bretagne",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f45254a6a92cd88b",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur·e IA/DevTools - Environnement de développement automatisé (agentique)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027---Ingnieure-IA-DevTools---Environnement-de-dveloppement-automatis--agentique-_JR10445844",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "3a6593f3e58b51b2",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Analyse des données business et politique Commerciale (h/f)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/STAGE-2027---Analyse-des-donnes-business-et-politique-Commerciale--h-f-_JR10445586",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f4cd76242bae2130",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Controle de Gestion Industriel",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Controle-de-Gestion-Industriel_JR10447012",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "1b31d14f2a23f2ab",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Stagiaire en Réparation Avionique et Data Management (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027---Stagiaire-en-Rparation-Avionique-et-Data-Management--F-H-_JR10447794",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "1596dea106cd9c84",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Méthodes Qualité (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Ingnier-Mthodes-Qualit--ALL-GENDER-_JR10447106",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "fbfd8cb0dea260d7",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Gestion  de Projet IA & Performance Qualité Client (H/F)(ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Gestion--de-Projet-IA---Performance-Qualit-Client--H-F--ALL-GENDER-_JR10446043",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e8dbcc27d1019942",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur projets en support production (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Ingnieur-projets-en-support-production--ALL-GENDER-_JR10441176",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "c032416a55abf6e6",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Engineering Project Manager Officer (h/f)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027---Engineering-Project-Manager-Officer--h-f-_JR10432600",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "5314748ff9362a65",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur(e) Matériaux & Procédés - Qualification de Revêtements organiques (h/f)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027---Ingnieur-e--Matriaux---Procds---Qualification-de-Revtements-organiques--h-f-_JR10438022",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "74a9eadebd50b9a2",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Support Ingénieur Chiffrage (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Support-Ingnieur-Chiffrage--ALL-GENDER-_JR10446756",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "6ccdb32b2369d28a",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Cartographie de la stratégie et planification globale (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/STAGE-2027---Cartographie-de-la-stratgie-et-planification-globale--F-H-_JR10445808",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "1cf3ffc00be3af38",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Stage en optimisation des processus qualité - intégration de l'IA (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Intgration-de-l-IA-Gnrative--la-Qualit---ALL-GENDER-_JR10447066",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "59686083b58ccdcd",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Data Scientist  Modélisation des risques indus sur la production d’avions (All Gender)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027---Data-Scientist--Modlisation-des-risques-indus-sur-la-production-d-avions--All-Gender-_JR10450399",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "06a3f3c6ca4959a9",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 Optimisation des performances au décollage : analyse des bases de données d'obstacles et des pratiques opérationnelles des compagnies aériennes à partir de données en exploitation (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Stage-2027-Optimisation-des-performances-au-dcollage---analyse-des-bases-de-donnes-d-obstacles-et-des-pratiques-oprationnelles-des-compagnies-ariennes--partir-de-donnes-en-exploitation--F-H-_JR10441251",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b0402c3ae4dcd825",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Animateur Qualité - Structure A350 (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Animateur-Qualit---Structure-A350--ALL-GENDER-_JR10446994",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "87448d28590ecc7a",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Accompagnement au changement /support à la montée en compétences en IA (H/F)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/STAGE-2027---Intelligence-Artificielle-AH-Operation-H-F-_JR10445490",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "0a5e8f38eaa01e63",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 Assistant Product Manager – Innovation & Surveillance maritime (h/f)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Paris-Area/STAGE-2027-Assistant-Product-Manager---Innovation---Exploration-Sous-Marine--h-f-_JR10444741",
+   "location": "Paris Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "c03b3cd5c33a43e8",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Ingénieur(e) Montée en TRL d'Échangeurs Thermiques en Fabrication Additive (All Gender)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/Stage-2027---Ingnieur-e--Monte-en-TRL-d-changeurs-Thermiques-en-Fabrication-Additive--All-Gender-_JR10450528",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "950386ec2bc9e343",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 -  Ingénieur Matériaux_Preservation & Servicing (All Gender)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Marseille-Area/Stage-2027----Ingnieur-Matriaux-Preservation---Servicing--All-Gender-_JR10447576",
+   "location": "Marseille Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f727fefa7b7e82ce",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Support Industrialisation A350 (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Ingnieur-Support-Industrialisation-Panoplies-de-Fixations-A350--ALL-GENDER-_JR10445666",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "5d4378975fbcf6f8",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "Stage 2027 - Stage en management de projet & Pilotage Opérationnel - programme A320 (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Assistant-chef-de-projets-et-organisation--ALL-GENDER-_JR10435785",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "cf85c1c4f3fcc864",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur assurance qualité (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Ingnieur-assurance-qualit--ALL-GENDER-_JR10447008",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "3cfcbe30a89d6eec",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Structuration Qualité & SI Collaboratif - Lycée Airbus (F/H)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/STAGE-2027---Structuration-Qualit---SI-Collaboratif---Lyce-Airbus--F-H-_JR10445267",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a11a295015812d54",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Hygiène, Sécurité et Environnement (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Rochefort/STAGE-2027---Ingnieur-Hygine--Scurit-et-Environnement--ALL-GENDER-_JR10443686",
+   "location": "Rochefort",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "bf7aa05d2249e6a7",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Recherche et Technologie Matériaux Composites (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Maulte-Area/STAGE-2027---Ingnieur-Recherche-et-Technologie-Matriaux-Composites--ALL-GENDER-_JR10450577",
+   "location": "Méaulte Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "20ae12d2cd744f68",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Métrologie & Conformité Normative (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Ingnieur-Mtrologie---Conformit-Normative--ALL-GENDER-_JR10446956",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "5b89ca673bb494ed",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Recherche et Technologie Matériaux Composites (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Maulte-Area/STAGE-2027---Ingnieur-Recherche-et-Technologie-Matriaux-Composites--ALL-GENDER-_JR10450573",
+   "location": "Méaulte Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "9b2a887b5a23818c",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 – Ingénieur Performance Financière et Opérationnelle Qualité (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Ingnieur-du-Pilotage-de-Performance---Digitalisation-Qualit--ALL-GENDER-_JR10444465",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "29260250e29972f2",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Qualité Produits & Amélioration Continue — A350 (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Amlioration-Produit-350-Structure--ALL-GENDER-_JR10443276",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "fc403c0fb74f0c83",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 – Ingénieur Génie Civil (All gender)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Rochefort/STAGE-2027---Gestion-de-Projet-btiments--ALL-GENDER-_JR10446262",
+   "location": "Rochefort",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a42ef23b51a382d4",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Digitalisation d'atelier de maintenance aéronautique (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Saint-Nazaire-Area/STAGE-2027---Digitalisation-d-atelier-de-maintenance-mcanique--ALL-GENDER-_JR10442723",
+   "location": "Saint Nazaire Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "4b23aec98c37c914",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Ingénieur Optimisation du contrôle qualité (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Nantes-Area/STAGE-2027---Ingnieur-Optimisation-du-contrle-qualit--ALL-GENDER-_JR10446658",
+   "location": "Nantes Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "aa21fe8847574465",
+   "source": "Airbus",
+   "company": "Airbus",
+   "title": "STAGE 2027 - Digitalisation des méthodes de Fabrication et programmation (ALL GENDER)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Maulte-Area/STAGE-2027---Ingnieur-industrialisation--ALL-GENDER-_JR10446977",
+   "location": "Méaulte Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a6721eee5d680858",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship – Supply Chain Disruption & Obsolescence Anticipation Engineer",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship---Supply-Chain-Disruption---Obsolescence-Anticipation-Engineer_JR10454677",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "81f6fc59b0a4e449",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - internship 2027 - Aerostructure buyer",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---internship-2027---Aerostructure-buyer_JR10452873",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "24caa9759b4acc49",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Type Rating Practical Training Test Bench and associated material",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Type-Rating-Practical-Training-Test-Bench-and-associated-material_JR10447592",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f8c5e967ba41600d",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027  - Stage en performance de la relation client FAL ATR",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027----Stage-en-performance-de-la-relation-client-FAL-ATR_JR10452785",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "70771dc9f4524f13",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "Editorial Content Creator Internship",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Editorial-Content-Creator-Internship_JR10452801",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b057eaed44381616",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Stage Health and Safety",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Stage-Health-and-Safety_JR10451497",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b40a29e7f7d16bd4",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 – AI and structural in -service repairs",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---AI-and-structural-in--service-repairs_JR10450722",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "baffb3eff380f8ee",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR- Internship 2027 - Avionics System Interface Assistant",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR--Internship-2027---IA-Assistant-for-Avionics-systems-designer_JR10450466",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "9ea8fd953c5ce999",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Aircraft Structures In-Service Occurrences Investigation & Design Improvements",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Aircraft-Structures-In-Service-Occurrences-Investigation---Design-Improvements_JR10451154",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b87d07302c485e45",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - HRBP",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---HRBP_JR10450321",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "0626550173a756b4",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR- Stage Recrutement & Developpement RH",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR--Stage-Recrutement---Developpement-RH_JR10450071",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2cd35783c7659a5a",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 -Designer Graphique",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027--Designer-Graphique_JR10447573",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "da8e95b313b96b30",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship - Flight Data Analysis and IA",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship---Flight-Data-Analysis-and-IA_JR10450784",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "50b576005f0b67de",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 - Fleet performance reliability review",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Blagnac-ATR/ATR---Internship-2027---Fleet-performance-reliability-review_JR10451158",
+   "location": "Blagnac (ATR)",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "02ed0eff02e31492",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Spares Pricing & Profitability",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Spares-Pricing---Profitability_JR10447798",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b68f839fc509b649",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR Internship - Services Marketing Development",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR-Internship---Services-Marketing-Development_JR10447029",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "998e1c35025921b4",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Customer Material Support",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Customer-Material-Support_JR10450066",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "8769d547fc6f88ca",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 - Inventory Planning Digitalization H/F",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Inventory-Planning-Digitalization-H-F_JR10445901",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f76aa27ca4e47432",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship - Customer Services – Digital Transformation for Repair Engineering",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship---Customer-Services---Digital-Transformation-for-Repair-Engineering_JR10449936",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a9a283bf5f3c5da9",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027  - Supplier Performance & KPI management",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027----Supplier-Performance---KPI-management_JR10449869",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "58801624ec62c4dd",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship -Supplier Repair Manager - Transversal Process",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship--Supplier-Repair-Manager---Transversal-Process_JR10448167",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b7a34f7f93e209c3",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Operational Excellence & Digital transformation",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Operational-Excellence---Digital-transformation_JR10450339",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e7084b13a9f0ee3f",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 - Supplier Support Management M/F",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Supplier-Support-Management-M-F_JR10449666",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "dbe4d2048e80851b",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Stage - Support à la Transformation Service Administration des Ventes",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Stage---Support--la-Transformation-Service-Administration-des-Ventes_JR10449622",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2bf412053024704f",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Stage Développement Outil d’Analyse des Données de Vol",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Stage-Dveloppement-Outil-d-Analyse-des-Donnes-de-Vol_JR10450054",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "c6a1b8d60c24f73b",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship - Continuous Improvement & Business Performance (Services Contracts Management)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship---Continuous-Improvement---Business-Performance--Services-Contracts-Management-_JR10449687",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "cabee37498140315",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027  - Ingénieur Support Client",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027----Ingnieur-Support-Client_JR10448273",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "cc090775e8c77c90",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR- Internship - Direct Procurement - Continuous improvement",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR--Internship---Direct-Procurement---Continuous-improvement_JR10446978",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "5bf62e0233ed116f",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Supply Aerostructure operating Model",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Supply-Aerostructure-operating-Model-_JR10450541",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "51716120c34a4a3b",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027  - Transformation méthodologique des SMS",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027----Transformation-mthodologique-des-SMS_JR10450572",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e7786c80f824f755",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 - Process, Methods & Tools Transformation",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Process--Methods---Tools-Transformation_JR10450971",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "04b9908ab3c81ae6",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship - Accounting",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship---Accounting_JR10450824",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e4552fa0dc006a6c",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Customs",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Customs_JR10449017",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "767a89015afccc16",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Treasury Internship 2027",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Treasury-Internship-2027_JR10450805",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "f2ceaad862427220",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027  - Financial Analyst (F/M)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027----Financial-Analyst--F-M-_JR10448504",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "e992ccf8742954da",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 -Procurement & Supply Chain Controlling",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027--Procurement---Supply-Chain-Controlling_JR10450802",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "81a236c536a7aee0",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR - Internship 2027 - Credit manager assistant (F/M)",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Credit-manager-assistant--F-M-_JR10448515",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "091741ba7b6e49d6",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027  - Development of a tool and methodologies to design next generation aicraft",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027----Development-of-a-tool-and-methodologies-to-design-next-generation-aicraft_JR10450895",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "d232d2055f54e883",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR Internship 2027- Stress/Repair Engineer",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR-Internship-2027--Stress-Repair-Engineer_JR10450734",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "c82fc66c8cf64b2c",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Oxygen Fed Fire Analysis and Mitigation",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Oxygen-Fed-Fire-Analysis-and-Mitigation_JR10449292",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "786fe402949e3fcc",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "ATR – Internship 2027 - Structure Fleet Support Daily repair Engineer",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/ATR---Internship-2027---Structure-Fleet-Support-Daily-repair-Engineer_JR10450674",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "c3d8d2f3e5246977",
+   "source": "ATR",
+   "company": "ATR",
+   "title": "Internship : Flight Test Anomaly Report (RAEV) management process",
+   "url": "https://ag.wd3.myworkdayjobs.com/Airbus/job/Toulouse-Area/Internship---Flight-Test-Anomaly-Report--RAEV--management-process_JR10452016",
+   "location": "Toulouse Area",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "afb7dd184db25d23",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Consultant Innovation Digital (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Lyon/Stage---Consultant-Innovation-Digital--F-H-_R-2026036584",
+   "location": "Lyon",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "001714f2154bd571",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage – Purification des matières premières par adsorption (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Purification-des-matires-premires-par-adsorption--F-H-_R-2026041882",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "eb870c32b171416e",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Comportement Thermique Pneumatiques (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Comportement-Thermique-Pneumatiques--F-H-_R-2026041550",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "467af10ee906a669",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage – Développement de méthodologie analytique en spectroscopie vibrationnelle (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dveloppement-de-mthodologie-analytique-en-spectroscopie-vibrationnelle--F-H-_R-2026039482",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "affd0ed4a47ba247",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stagiaire - Outil d’investigation Forensique assistée par IA (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stagiaire---Outil-d-investigation-Forensique-assiste-par-IA--F-H-_R-2026039310-1",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "dbae14df98d2f866",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Estimation & modèles physiques – Jumeau numérique du pneu (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Estimation---modles-physiques---Jumeau-numrique-du-pneu--F-H-_R-2026038976",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "508f0bf61332fd06",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Data Science appliquée au Jumeau numérique du pneu (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Data-Science-applique-au-Jumeau-numrique-du-pneu--F-H-_R-2026038884",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "9831eb053e3c0eb9",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Découverte de propriétés adimensionnelles à partir de données industrielles (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Datascientist--F-H-_R-2026037661",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "3b8a4c50bff10b5b",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Caractérisation et Optimisation des Renforts Textiles pour le Pneumatique (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Toute-France/Stage---Caractrisation-et-Optimisation-des-Renforts-Textiles-pour-le-Pneumatique--F-H-_R-2026040291",
+   "location": "2 sites",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "0eb16d1d43b0ceda",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Développement d’approches numériques pour accélérer les mesures AFM-IR (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dveloppement-d-approches-numriques-pour-acclrer-les-mesures-AFM-IR--F-H-_R-2026037244",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "435f30ee1807c064",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Automatisation des tests de validation fonctionnels pour nos algorithmes C++ (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dvoppement-embarqu--F-H-_R-2026040269",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "872c2b01bd3fe58f",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Développement d'une méthode de dosage par chromatographie en phase gazeuse (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dveloppement-d-une-mthode-de-dosage-par-chromatographie-en-phase-gazeuse--F-H-_R-2026040712",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "d431cfc8adc135a4",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Développement et validation d’une méthode de mesure du plomb par fluorescence X sur matières premières (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/Stage---Dveloppement-et-validation-d-une-mthode-de-mesure-du-plomb-par-fluorescence-X-sur-matires-premires--F-H-_R-2026038742",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "d68eda561ada0cfb",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Stage - Etude de la stabilité et représentativité d'échantillon d'usage de camion par datascience (F/H)",
+   "url": "https://michelinhr.wd3.myworkdayjobs.com/Michelin/job/Clermont-Ferrand/XMLNAME--Stage---Etude-de-la-stabilit-et-reprsentativit-d-chantillon-d-usage-de-camion-par-datascience--F-H-_R-2026040713",
+   "location": "Clermont-Ferrand",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2c46cee04e3fed52",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Développement d'un modèle de système de communication aéronautique(F/H) F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-developpement-d-un-modele-de-systeme-de-communication-aeronautique-f-h-f-h_15968.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a9c2180ee9f6e88c",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage : Introduction de MQTT et DDS dans un middleware embarqué F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-introduction-de-mqtt-et-dds-dans-un-middleware-embarque-f-h_15945.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "c169a0d6a1523a2a",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage : conception d'un modèle dynamique antigivrage F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-conception-d-un-modele-dynamique-antigivrage-f-h_15905.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "96b530df38d16096",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Ingénieur projets achats F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-ingenieur-projets-achats-f-h_15994.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "ada26dabc61ccf78",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage : Chef de projet Communication Marque Employeur et Intégration Groupe F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-chef-de-projet-communication-marque-employeur-et-integration-groupe-f-h_15993.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "73a1e9a1dba154f2",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage Ingénieur - Contrôle Qualité spécialisé F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-ingenieur-controle-qualite-specialise-f-h_15992.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "d9c5950cab9a4430",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage Ingénieur en production F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-ingenieur-en-production-f-h_15991.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "a23d86d90f757a9d",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage fin d'étude ingénieur - Amélioration du polissage de transparent F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-fin-d-etude-ingenieur-amelioration-du-polissage-de-transparent-f-h_15987.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b31366e9d97fe782",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Conception et implémentation d'une Usine Logicielle Augmentée par IA F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-conception-et-implementation-d-une-usine-logicielle-augmentee-par-ia-f-h_15967.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "6bcf06e13249976b",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Amélioration de la modélisation des équipements optionnels Rafale Fr pour la prévision logistique F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-amelioration-de-la-modelisation-des-equipements-optionnels-rafale-fr-pour-la-prevision-logistique-f-h_15964.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "044b5c704fccf36f",
+   "source": "Capgemini",
+   "company": "Capgemini",
+   "title": "Data Scientist IA - Stage Bourogne, Mérignac, Lyon, Toulouse, Cesson-Sévigné Data et intelligence artificielle Stage Etudiants/ Jeunes diplômés",
+   "url": "https://www.capgemini.com/fr-fr/jobs/523857-fr_FR+sap_btp",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "3037e05e65dd7870",
+   "source": "IAV",
+   "company": "IAV",
+   "title": "Job-ID: 23123 Werkstudent – IT Governance Students: Working Student, Part Time - hybrid - Berlin",
+   "url": "https://www.iav.com/career/joboffers/werkstudent-it-governance-2/",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "bb3f653d23fb27f5",
+   "source": "BWI Group",
+   "company": "BWI Group",
+   "title": "Check out our Job Vacancies and Internship Opportunities in Dayton, OH USA - All Positions Dayton, OH USA All Positions MORE INFO",
+   "url": "https://www.linkedin.com/jobs/search/?currentJobId=3784891307&geoId=102636075&keywords=bwi%20group&location=Dayton%2C%20Ohio%2C%20United%20States&origin=JOB_SEARCH_PAGE_LOCATION_AUTOCOMPLETE&refresh=true",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "b127e92610db2acf",
+   "source": "BWI Group",
+   "company": "BWI Group",
+   "title": "Check out our Job Vacancies and Internship Opportunities in Brighton, MI USA – All Positions Brighton, MI USA All Positions MORE INFO",
+   "url": "https://www.linkedin.com/hiring/jobs/4423646647/detail/",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "8130d3ec19eb290f",
+   "source": "BWI Group",
+   "company": "BWI Group",
+   "title": "Check out our Internship Vacancies in Krakow, Poland - All Positions Krakow, PL All Positions MORE INFO",
+   "url": "https://www.bwigroup.pl/Praca.html",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "2bf7940edd7f2356",
+   "source": "Bombardier (ingénierie)",
+   "company": "Bombardier (ingénierie)",
+   "title": "Internships & New Graduate Programs",
+   "url": "https://jobs.bombardier.com/go/Internships-&-New-Graduate-Programs/9387201/",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-12T11:20:56+00:00",
+   "active": true
+  },
+  {
+   "id": "9a2c45ae7ea486b6",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage en Développement d’outils de simulation CFD et thermique (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-en-Dveloppement-d-outils-de-simulation-CFD-et-thermique--H-F-_JOBREQ_50286761",
+   "location": "",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "b7e0e546debb4ea9",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage en Mécanique des fluides (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-en-Mcanique-des-fluides--H-F-_JOBREQ_50286754",
+   "location": "",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
   },
   {
    "id": "1980af95f0cbdd4b",
@@ -3260,6 +4989,162 @@
    "score": 3,
    "first_seen": "2026-11-10T19:28:12+00:00",
    "last_seen": "2026-11-10T19:28:12+00:00",
+   "active": false
+  },
+  {
+   "id": "1227995e627095ce",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Logistique & Métrologie (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Logistique---Mtrologie--H-F-_JOBREQ_50286774",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "92baaf96fc43815e",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Calculs dynamiques non linéaires (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Calculs-dynamiques-non-linaires--H-F-_JOBREQ_50286769",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "8ee28875f964cacf",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Développement d’une chaîne automatisée d’optimisation de géométries par CFD et intelligence artificielle (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Dveloppement-d-une-chane-automatise-d-optimisation-de-gomtries-par-CFD-et-intelligence-artificielle--H-F-_JOBREQ_50286745",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "7820648ed9ca6fa2",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Modélisation et validation des systèmes de contrôle (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Modlisation-et-validation-des-systmes-de-contrle--H-F-_JOBREQ_50286741",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "0315479ac908a401",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Création d'outils d’analyse de la concurrence (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Modlisation-et-validation-des-systmes-de-contrle--H-F-_JOBREQ_50286733",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "243a71e54ca04cc3",
+   "source": "Alpine Racing (Workday)",
+   "company": "Alpine Racing (Workday)",
+   "title": "CS27 - Bac +5 - Stage Coordinateur Business Développement (H/F)",
+   "url": "https://alliancewd.wd3.myworkdayjobs.com/en-GB/alpine-racing-careers/job/Viry-Chatillon/CS27---Bac--5---Stage-Coordinateur-Business-Dveloppement--H-F-_JOBREQ_50286394",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "08dcb183d01411c5",
+   "source": "Michelin",
+   "company": "Michelin",
+   "title": "Work-Study & Internships",
+   "url": "https://recrutement.michelin.fr/en/students/work-linked-trainings-internships",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "c018ad3ed7d6946c",
+   "source": "UTAC",
+   "company": "UTAC",
+   "title": "Juriste International et Compliance Confirmé Legal",
+   "url": "https://jobs.smartrecruiters.com/UTAC/744000160183029-juriste-international-et-compliance-confirme",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "eedf7280af71f185",
+   "source": "UTAC",
+   "company": "UTAC",
+   "title": "Stagiaire CEM EMC Emissions & Acoustic - France",
+   "url": "https://jobs.smartrecruiters.com/UTAC/744000159374769-stagiaire-cem",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "4704fd0cab27188b",
+   "source": "UTAC",
+   "company": "UTAC",
+   "title": "Stage Ingénieur – Ingénierie Crash & Essais sur Catapulte Inverse Safety - France",
+   "url": "https://jobs.smartrecruiters.com/UTAC/744000152369019-stage-ingenieur-ingenierie-crash-essais-sur-catapulte-inverse",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "252cf213d099994f",
+   "source": "UTAC",
+   "company": "UTAC",
+   "title": "Stagiaire Ingénieur essais automobile - dynamique du véhicule Durability - France",
+   "url": "https://jobs.smartrecruiters.com/UTAC/744000159403939-stagiaire-ingenieur-essais-automobile-dynamique-du-vehicule",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "690d036b6646b4ec",
+   "source": "UTAC",
+   "company": "UTAC",
+   "title": "Stagiaire Ingénieur essais automobile - fiabilité Durability - France",
+   "url": "https://jobs.smartrecruiters.com/UTAC/744000159373065-stagiaire-ingenieur-essais-automobile-fiabilite",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-12T00:15:51+00:00",
    "active": false
   },
   {
@@ -3744,319 +5629,403 @@
  ],
  "runs": [
   {
+   "company": "Adzuna",
+   "ok": false,
+   "message": "clés Adzuna manquantes (secrets ADZUNA_APP_ID et ADZUNA_APP_KEY)",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
    "company": "AP Racing",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Team WRT",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "United Autosports",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Iron Lynx",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Pankl Racing (Allemagne)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Pankl Racing (Autriche)",
    "ok": false,
    "message": "HTTPSConnectionPool(host='pankl.com', port=443): Read timed out. (read timeout=25)",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Prodrive",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "X-raid",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Manthey Racing",
    "ok": true,
    "message": "2 annonces lues",
    "found": 2,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "KW automotive",
    "ok": true,
    "message": "5 annonces lues",
    "found": 5,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "HORSE Powertrain",
    "ok": true,
    "message": "16 annonces lues",
    "found": 16,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Cosworth",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Hankook (Europe)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Toyota Gazoo Racing Europe",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Alpine Racing (Workday)",
    "ok": true,
-   "message": "8 annonces lues",
+   "message": "19 annonces lues",
    "found": 8,
-   "last_run": "2026-11-12T11:13:22+00:00"
-  },
-  {
-   "company": "Arrow McLaren / McLaren Racing",
-   "ok": false,
-   "message": "accès refusé par le robots.txt du site",
-   "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Hendrick Motorsports",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Multimatic (Workday)",
    "ok": true,
-   "message": "0 annonces lues",
-   "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "message": "45 annonces lues",
+   "found": 1,
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Dana (étudiants)",
    "ok": true,
    "message": "13 annonces lues",
    "found": 13,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "KTM (stages)",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Ducati",
    "ok": true,
    "message": "5 annonces lues",
    "found": 5,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Ferrari",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Škoda Auto",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-12T11:13:22+00:00"
-  },
-  {
-   "company": "Michelin",
-   "ok": true,
-   "message": "1 annonces lues",
-   "found": 1,
-   "last_run": "2026-11-12T11:13:22+00:00"
-  },
-  {
-   "company": "Pirelli",
-   "ok": false,
-   "message": "accès refusé par le robots.txt du site",
-   "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "AVL (stages et thèses)",
    "ok": true,
    "message": "11 annonces lues",
    "found": 11,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "MAHLE (stages)",
    "ok": true,
    "message": "36 annonces lues",
    "found": 36,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Garrett Motion",
    "ok": true,
    "message": "10 annonces lues",
    "found": 10,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Marelli",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "BorgWarner",
    "ok": true,
    "message": "5 annonces lues",
    "found": 5,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Stratasys",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Sandvik",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Syensqo",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
-  },
-  {
-   "company": "UTAC",
-   "ok": true,
-   "message": "5 annonces lues",
-   "found": 5,
-   "last_run": "2026-11-12T11:13:22+00:00"
-  },
-  {
-   "company": "SEGULA Technologies",
-   "ok": true,
-   "message": "0 annonces lues",
-   "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Applus+ IDIADA",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "HORIBA",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "FEV",
    "ok": true,
    "message": "11 annonces lues",
    "found": 11,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Akkodis",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Bertrandt",
    "ok": true,
-   "message": "0 annonces lues",
-   "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "message": "4 annonces lues",
+   "found": 4,
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Expleo",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "ALTEN",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Rheinmetall",
    "ok": true,
    "message": "2 annonces lues",
    "found": 2,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Schaeffler",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
   },
   {
    "company": "Valeo",
    "ok": true,
    "message": "109 annonces lues",
    "found": 94,
-   "last_run": "2026-11-12T11:13:22+00:00"
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Airbus",
+   "ok": true,
+   "message": "56 annonces lues",
+   "found": 55,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "ATR",
+   "ok": true,
+   "message": "44 annonces lues",
+   "found": 43,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Michelin",
+   "ok": true,
+   "message": "23 annonces lues",
+   "found": 18,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Safran",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Dassault Aviation",
+   "ok": true,
+   "message": "10 annonces lues",
+   "found": 10,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Stellantis",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Forvia",
+   "ok": false,
+   "message": "accès refusé par le robots.txt du site",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "MBDA",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "KNDS",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Hexcel",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "UTAC",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "SEGULA Technologies",
+   "ok": true,
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Capgemini",
+   "ok": true,
+   "message": "1 annonces lues",
+   "found": 1,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "IAV",
+   "ok": true,
+   "message": "1 annonces lues",
+   "found": 1,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "BWI Group",
+   "ok": true,
+   "message": "3 annonces lues",
+   "found": 3,
+   "last_run": "2026-11-12T11:20:56+00:00"
+  },
+  {
+   "company": "Bombardier (ingénierie)",
+   "ok": true,
+   "message": "1 annonces lues",
+   "found": 1,
+   "last_run": "2026-11-12T11:20:56+00:00"
   }
  ]
 }
