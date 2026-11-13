@@ -70,6 +70,14 @@
       <p class="meta">Collez ici le texte de votre CV : école et année, durée et dates de stage souhaitées, projets, expériences, compétences (CAO, logiciels, langues), centres d'intérêt. Ce texte reste dans ce navigateur : il n'est jamais envoyé sur GitHub.</p>
       <textarea id="profile" style="min-height:180px" placeholder="Ex. : Étudiant en 2e année d'école d'ingénieurs (mécatronique) à ... Recherche un stage de 4 mois à partir d'avril 2027. Projets : ... Compétences : SolidWorks, CATIA, MATLAB, Python... Langues : ..."></textarea>
     </details>
+    <details id="xlBox">
+      <summary>Mon Excel de candidatures</summary>
+      <p class="meta">Chaque offre passée en « Candidature envoyée » est ajoutée à votre tableau Excel (entreprise, intitulé, lien, lieu, date d'envoi, notes). Choisissez une fois votre fichier, puis téléchargez la version à jour quand vous voulez. Le fichier reste sur cet appareil : il n'est jamais envoyé sur GitHub.</p>
+      <input type="file" id="xlFile" accept=".xlsx" hidden>
+      <button id="xlPick">Choisir mon fichier Excel</button>
+      <button id="xlMake">Télécharger l'Excel à jour</button>
+      <div class="meta" id="xlMsg"></div>
+    </details>
     <details>
       <summary>Sauvegarde de mon suivi (statuts et notes)</summary>
       <p class="meta">Votre suivi est enregistré dans ce navigateur uniquement. Pour le garder en sécurité ou le passer sur un autre appareil :</p>
@@ -155,7 +163,10 @@ $("list").addEventListener("change", e => {
   if (!e.target.classList.contains("st")) return;
   const id = e.target.closest(".offer").dataset.id;
   track[id] = { ...t(id), status: e.target.value };
-  if (e.target.value === "candidature_envoyee" && !track[id].applied_at) track[id].applied_at = new Date().toISOString();
+  if (e.target.value === "candidature_envoyee" && !track[id].applied_at) {
+    track[id].applied_at = new Date().toISOString();
+    setTimeout(() => toast("Candidature notée. Pour l'ajouter à votre Excel : en bas du site, « Mon Excel de candidatures »."), 50);
+  }
   save(); render();
 });
 $("list").addEventListener("input", e => {
@@ -214,6 +225,93 @@ $("list").addEventListener("click", e => {
   const hasProfile = $("profile").value.trim().length > 0;
   const done = ok => toast((ok ? "Demande copiée. " : "") + (q.length < 6000 ? "Claude s'ouvre avec la demande déjà remplie" : "Claude s'ouvre : collez la demande dans la conversation") + (ok ? " (sinon, collez-la)." : ".") + (hasProfile ? "" : " Pensez à remplir « Mon profil » en bas du site."));
   try { navigator.clipboard.writeText(text).then(() => done(true), () => done(false)); } catch (err) { done(false); }
+});
+
+// ---- Excel de candidatures : complète le fichier de l'utilisateur, sur son appareil
+const XL_LIB = "https://cdnjs.cloudflare.com/ajax/libs/exceljs/4.4.0/exceljs.min.js";
+const idb = (mode, fn) => new Promise((res, rej) => {
+  const open = indexedDB.open("stagefinder", 1);
+  open.onupgradeneeded = () => open.result.createObjectStore("files");
+  open.onerror = () => rej(open.error);
+  open.onsuccess = () => {
+    const tx = open.result.transaction("files", mode), rq = fn(tx.objectStore("files"));
+    tx.oncomplete = () => res(rq && rq.result); tx.onerror = () => rej(tx.error);
+  };
+});
+const xlGet = () => idb("readonly", st => st.get("xlsx")).catch(() => null);
+const xlPut = v => idb("readwrite", st => st.put(v, "xlsx")).catch(() => null);
+const xlMsg = m => { $("xlMsg").textContent = m; };
+const loadLib = () => window.ExcelJS ? Promise.resolve() : new Promise((res, rej) => {
+  const sc = document.createElement("script"); sc.src = XL_LIB; sc.onload = res;
+  sc.onerror = () => rej(new Error("lib")); document.head.appendChild(sc);
+});
+const plain = v => (v == null ? "" : typeof v === "object" ? (v.text || v.result || (v.richText || []).map(r => r.text).join("") || "") : String(v));
+const key = v => plain(v).normalize("NFKD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+
+xlGet().then(f => { if (f) xlMsg("Fichier mémorisé : " + f.name); });
+$("xlPick").addEventListener("click", () => $("xlFile").click());
+$("xlFile").addEventListener("change", async e => {
+  const file = e.target.files[0]; if (!file) return;
+  await xlPut({ name: file.name, buf: await file.arrayBuffer() });
+  xlMsg("Fichier mémorisé : " + file.name + ". Touchez « Télécharger l'Excel à jour ».");
+});
+
+$("xlMake").addEventListener("click", async () => {
+  xlMsg("Préparation…");
+  try { await loadLib(); } catch (err) { return xlMsg("Impossible de charger l'outil Excel : vérifiez votre connexion et réessayez."); }
+  try {
+    const stored = await xlGet();
+    const wb = new ExcelJS.Workbook();
+    let ws;
+    const COLS = ["entreprise", "intitulé de l'offre", "Lien", "contact", "lieu", "Date envoi", "date relance", "date entretien", "commentaires"];
+    if (stored) { await wb.xlsx.load(stored.buf); ws = wb.worksheets[wb.worksheets.length - 1]; }
+    else { ws = wb.addWorksheet("candidatures"); ws.addRow(COLS); [20, 70, 18, 16, 20, 14, 14, 14, 30].forEach((w, i) => ws.getColumn(i + 1).width = w); }
+    // colonnes repérées par leur titre en ligne 1
+    const col = {};
+    ws.getRow(1).eachCell((c, n) => {
+      const k = key(c.value);
+      if (k.startsWith("entreprise")) col.company = n; else if (k.startsWith("intitule")) col.title = n;
+      else if (k === "lien") col.link = n; else if (k === "lieu") col.place = n;
+      else if (k.includes("envoi")) col.sent = n; else if (k.startsWith("commentaire")) col.notes = n;
+    });
+    if (!col.company || !col.title) return xlMsg("Je ne trouve pas les colonnes « entreprise » et « intitulé de l'offre » en première ligne du dernier onglet.");
+    // lignes déjà présentes : par lien, ou par entreprise + intitulé
+    const seen = new Set(); let last = 1;
+    ws.eachRow((row, n) => {
+      if (n === 1) return;
+      const link = col.link ? row.getCell(col.link).value : null;
+      const href = link && typeof link === "object" ? link.hyperlink : plain(link);
+      const a = key(row.getCell(col.company).value), b = key(row.getCell(col.title).value);
+      if (!a && !b && !plain(link)) return;
+      last = n;
+      if (href && /^https?:/.test(href)) seen.add(href.split("#")[0]);
+      if (a && b) seen.add(a + "|" + b);
+    });
+    const applied = data.offers.filter(o => track[o.id] && track[o.id].applied_at)
+      .sort((x, y) => track[x.id].applied_at.localeCompare(track[y.id].applied_at));
+    let added = 0;
+    for (const o of applied) {
+      const k2 = key(o.company) + "|" + key(o.title);
+      if (seen.has(o.url.split("#")[0]) || seen.has(k2)) continue;
+      const tr = track[o.id], d = new Date(tr.applied_at), row = ws.getRow(++last);
+      row.getCell(col.company).value = o.company;
+      row.getCell(col.title).value = o.title;
+      if (col.link) { const c = row.getCell(col.link); c.value = { text: "Voir l'offre", hyperlink: o.url }; c.font = { color: { argb: "FF0563C1" }, underline: true }; }
+      if (col.place && o.location) row.getCell(col.place).value = o.location;
+      if (col.sent) { const c = row.getCell(col.sent); c.value = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate())); c.numFmt = "mm-dd-yy"; }
+      const note = [tr.status === "entretien" ? "Entretien" : tr.status === "refusee" ? "Refusée" : "", tr.notes || ""].filter(Boolean).join(" - ");
+      if (col.notes && note) row.getCell(col.notes).value = note;
+      row.commit(); seen.add(k2); added++;
+    }
+    const buf = await wb.xlsx.writeBuffer();
+    const name = stored ? stored.name : "offres_de_stage.xlsx";
+    await xlPut({ name, buf });
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([buf], { type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" }));
+    a.download = name; document.body.appendChild(a); a.click(); a.remove();
+    xlMsg(added ? added + " candidature(s) ajoutée(s) dans l'onglet « " + ws.name + " ». Fichier téléchargé : " + name
+                : "Aucune nouvelle candidature à ajouter. Fichier téléchargé : " + name);
+  } catch (err) { xlMsg("Erreur pendant la création du fichier : " + (err && err.message || err)); }
 });
 
 $("export").addEventListener("click", async () => {
