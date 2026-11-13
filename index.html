@@ -66,9 +66,13 @@
       <div id="runs"></div>
     </details>
     <details id="profileBox">
-      <summary>Mon profil (pour les lettres de motivation)</summary>
-      <p class="meta">Collez ici le texte de votre CV : école et année, durée et dates de stage souhaitées, projets, expériences, compétences (CAO, logiciels, langues), centres d'intérêt. Ce texte reste dans ce navigateur : il n'est jamais envoyé sur GitHub.</p>
-      <textarea id="profile" style="min-height:180px" placeholder="Ex. : Étudiant en 2e année d'école d'ingénieurs (mécatronique) à ... Recherche un stage de 4 mois à partir d'avril 2027. Projets : ... Compétences : SolidWorks, CATIA, MATLAB, Python... Langues : ..."></textarea>
+      <summary>Mon CV (pour les lettres de motivation)</summary>
+      <p class="meta">Importez votre CV une fois (PDF ou Word) : son texte sert ensuite à rédiger chaque lettre. Il reste sur cet appareil et n'est jamais envoyé sur GitHub.</p>
+      <input type="file" id="cvFile" accept=".pdf,.docx,.txt" hidden>
+      <button id="cvPick">Importer mon CV</button>
+      <div class="meta" id="cvMsg"></div>
+      <p class="meta">Texte utilisé (modifiable : ajoutez par exemple vos dates de stage souhaitées) :</p>
+      <textarea id="profile" style="min-height:180px" placeholder="Le texte de votre CV apparaîtra ici après l'import. Vous pouvez aussi l'écrire ou le compléter à la main."></textarea>
     </details>
     <details id="xlBox">
       <summary>Mon Excel de candidatures</summary>
@@ -182,6 +186,58 @@ const PKEY = "stagefinder-profile-v1";
 try { $("profile").value = localStorage.getItem(PKEY) || ""; } catch (e) {}
 $("profile").addEventListener("input", () => { try { localStorage.setItem(PKEY, $("profile").value); } catch (e) {} });
 
+// Import du CV : le texte est extrait dans le navigateur (PDF, Word ou texte)
+const addScript = src => new Promise((res, rej) => {
+  const sc = document.createElement("script"); sc.src = src; sc.onload = res; sc.onerror = () => rej(new Error("lib")); document.head.appendChild(sc);
+});
+const PDF_LIB = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/";
+const DOCX_LIB = "https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.6.0/mammoth.browser.min.js";
+async function cvText(file) {
+  const name = file.name.toLowerCase(), buf = await file.arrayBuffer();
+  if (name.endsWith(".pdf")) {
+    if (!window.pdfjsLib) await addScript(PDF_LIB + "pdf.min.js");
+    pdfjsLib.GlobalWorkerOptions.workerSrc = PDF_LIB + "pdf.worker.min.js";
+    const pdf = await pdfjsLib.getDocument({ data: buf }).promise;
+    let out = "";
+    for (let n = 1; n <= pdf.numPages; n++) {
+      const tc = await (await pdf.getPage(n)).getTextContent();
+      let lastY = null;
+      for (const it of tc.items) {
+        const y = it.transform ? Math.round(it.transform[5]) : null;
+        if (lastY !== null && y !== null && Math.abs(y - lastY) > 2) out += "\n";
+        else if (out && !/\s$/.test(out)) out += " ";
+        out += it.str; lastY = y;
+      }
+      out += "\n";
+    }
+    return out;
+  }
+  if (name.endsWith(".docx")) {
+    if (!window.mammoth) await addScript(DOCX_LIB);
+    return (await mammoth.extractRawText({ arrayBuffer: buf })).value;
+  }
+  if (name.endsWith(".txt")) return new TextDecoder().decode(buf);
+  throw new Error("format");
+}
+$("cvPick").addEventListener("click", () => $("cvFile").click());
+$("cvFile").addEventListener("change", async e => {
+  const file = e.target.files[0]; if (!file) return;
+  const msg = m => { $("cvMsg").textContent = m; };
+  msg("Lecture du CV…");
+  try {
+    const text = (await cvText(file)).replace(/[ \t]+/g, " ").replace(/\n\s*\n+/g, "\n").trim();
+    if (text.length < 200) return msg("Je n'ai presque pas trouvé de texte dans ce fichier : c'est sans doute un CV enregistré comme image. Exportez-le en PDF depuis Word ou Canva, ou collez le texte ci-dessous.");
+    $("profile").value = text;
+    try { localStorage.setItem(PKEY, text); } catch (err) {}
+    msg("CV importé (" + file.name + ", " + text.length + " caractères). Vérifiez le texte ci-dessous.");
+  } catch (err) {
+    msg(err.message === "format" ? "Format non reconnu : utilisez un fichier PDF, Word (.docx) ou texte."
+      : err.message === "lib" ? "Impossible de charger l'outil de lecture : vérifiez votre connexion et réessayez."
+      : "Impossible de lire ce fichier : " + err.message);
+  }
+  e.target.value = "";
+});
+
 function toast(msg) {
   document.querySelectorAll(".toast").forEach(n => n.remove());
   const d = document.createElement("div"); d.className = "toast"; d.textContent = msg;
@@ -200,18 +256,18 @@ function letterPrompt(o) {
     "Lien : " + o.url,
     o.description ? "Extrait de l'annonce : " + o.description : "",
     "",
-    "MON PROFIL",
+    "MON CV",
     profile || "(non renseigné : demande-moi mon école, mes dates de stage, mes projets et mes compétences avant d'écrire)",
     "",
     "CONSIGNES",
     "- Si tu peux ouvrir le lien, lis l'annonce complète avant d'écrire.",
     "- Écris dans la langue de l'annonce (français ou anglais).",
     "- Une page maximum, ton professionnel et naturel, sans formules creuses.",
-    "- Relie 2 ou 3 éléments précis de mon profil aux missions de l'offre, et montre que je connais l'entreprise.",
-    "- N'invente aucune expérience, aucun chiffre, aucune compétence qui n'est pas dans mon profil.",
+    "- Relie 2 ou 3 éléments précis de mon CV aux missions de l'offre, et montre que je connais l'entreprise.",
+    "- N'invente aucune expérience, aucun chiffre, aucune compétence qui n'est pas dans mon CV.",
     "- S'il te manque une information importante, pose-moi la question avant de rédiger.",
     "- Termine par mes dates et ma disponibilité pour un entretien.",
-  ].filter(l => l !== "").join("\n").replace(/\nMON PROFIL/, "\n\nMON PROFIL").replace(/\nCONSIGNES/, "\n\nCONSIGNES").replace(/\nOFFRE/, "\n\nOFFRE");
+  ].filter(l => l !== "").join("\n").replace(/\nMON CV/, "\n\nMON CV").replace(/\nCONSIGNES/, "\n\nCONSIGNES").replace(/\nOFFRE/, "\n\nOFFRE");
 }
 
 $("list").addEventListener("click", e => {
@@ -221,9 +277,9 @@ $("list").addEventListener("click", e => {
   const text = letterPrompt(o);
   const q = encodeURIComponent(text);
   // ouverture immédiate (sinon le navigateur bloque la fenêtre), puis copie en secours
-  window.open(q.length < 6000 ? "https://claude.ai/new?q=" + q : "https://claude.ai/new", "_blank", "noopener");
+  window.open(q.length < 8000 ? "https://claude.ai/new?q=" + q : "https://claude.ai/new", "_blank", "noopener");
   const hasProfile = $("profile").value.trim().length > 0;
-  const done = ok => toast((ok ? "Demande copiée. " : "") + (q.length < 6000 ? "Claude s'ouvre avec la demande déjà remplie" : "Claude s'ouvre : collez la demande dans la conversation") + (ok ? " (sinon, collez-la)." : ".") + (hasProfile ? "" : " Pensez à remplir « Mon profil » en bas du site."));
+  const done = ok => toast((ok ? "Demande copiée. " : "") + (q.length < 8000 ? "Claude s'ouvre avec la demande déjà remplie" : "Claude s'ouvre : collez la demande dans la conversation") + (ok ? " (sinon, collez-la)." : ".") + (hasProfile ? "" : " Pensez à importer votre CV en bas du site (« Mon CV »)."));
   try { navigator.clipboard.writeText(text).then(() => done(true), () => done(false)); } catch (err) { done(false); }
 });
 
