@@ -32,6 +32,8 @@
   .badge.hi { color:var(--good); border-color:var(--good); } .badge.mid { color:var(--warn); border-color:var(--warn); } .badge.off { color:var(--bad); border-color:var(--bad); }
   .actions { display:flex; flex-direction:column; gap:8px; margin-top:10px; }
   a.apply { display:block; text-align:center; text-decoration:none; background:var(--accent); color:#fff; padding:11px; border-radius:10px; font-weight:600; }
+  button.letter { padding:11px; border-radius:10px; border:1px solid var(--accent); background:transparent; color:var(--accent); font-weight:600; }
+  .toast { position:fixed; left:16px; right:16px; bottom:16px; max-width:560px; margin:0 auto; background:var(--text); color:var(--bg); padding:12px 14px; border-radius:10px; font-size:14px; z-index:10; }
   details { margin-top:10px; } summary { cursor:pointer; color:var(--muted); font-size:14px; }
   textarea { min-height:80px; margin-top:8px; }
   .empty { text-align:center; color:var(--muted); padding:32px 12px; background:var(--card); border:1px dashed var(--line); border-radius:12px; }
@@ -62,6 +64,11 @@
     <details>
       <summary>État des sources</summary>
       <div id="runs"></div>
+    </details>
+    <details id="profileBox">
+      <summary>Mon profil (pour les lettres de motivation)</summary>
+      <p class="meta">Collez ici le texte de votre CV : école et année, durée et dates de stage souhaitées, projets, expériences, compétences (CAO, logiciels, langues), centres d'intérêt. Ce texte reste dans ce navigateur : il n'est jamais envoyé sur GitHub.</p>
+      <textarea id="profile" style="min-height:180px" placeholder="Ex. : Étudiant en 2e année d'école d'ingénieurs (mécatronique) à ... Recherche un stage de 4 mois à partir d'avril 2027. Projets : ... Compétences : SolidWorks, CATIA, MATLAB, Python... Langues : ..."></textarea>
     </details>
     <details>
       <summary>Sauvegarde de mon suivi (statuts et notes)</summary>
@@ -134,6 +141,7 @@ function render() {
         ${o.active ? "" : '<span class="badge off">retirée du site</span>'}</div>
       <div class="actions">
         <a class="apply" href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">Voir l'offre et postuler ↗</a>
+        <button class="letter" type="button">Lettre de motivation ✍</button>
         <select class="st">${Object.entries(STATUS).map(([k, v]) => `<option value="${k}" ${k === tr.status ? "selected" : ""}>${v}</option>`).join("")}</select>
       </div>
       <details><summary>Notes${o.description ? " et description" : ""}</summary>
@@ -157,6 +165,56 @@ $("list").addEventListener("input", e => {
   save();
 });
 ["q", "company", "status", "relevant", "activeOnly"].forEach(id => $(id).addEventListener("input", render));
+
+// ---- Lettre de motivation : prépare une demande complète pour Claude (offre + profil)
+const PKEY = "stagefinder-profile-v1";
+try { $("profile").value = localStorage.getItem(PKEY) || ""; } catch (e) {}
+$("profile").addEventListener("input", () => { try { localStorage.setItem(PKEY, $("profile").value); } catch (e) {} });
+
+function toast(msg) {
+  document.querySelectorAll(".toast").forEach(n => n.remove());
+  const d = document.createElement("div"); d.className = "toast"; d.textContent = msg;
+  document.body.appendChild(d); setTimeout(() => d.remove(), 7000);
+}
+
+function letterPrompt(o) {
+  const profile = $("profile").value.trim();
+  return [
+    "Rédige ma lettre de motivation pour cette offre de stage.",
+    "",
+    "OFFRE",
+    "Intitulé : " + o.title,
+    "Entreprise : " + o.company,
+    o.location ? "Lieu : " + o.location : "",
+    "Lien : " + o.url,
+    o.description ? "Extrait de l'annonce : " + o.description : "",
+    "",
+    "MON PROFIL",
+    profile || "(non renseigné : demande-moi mon école, mes dates de stage, mes projets et mes compétences avant d'écrire)",
+    "",
+    "CONSIGNES",
+    "- Si tu peux ouvrir le lien, lis l'annonce complète avant d'écrire.",
+    "- Écris dans la langue de l'annonce (français ou anglais).",
+    "- Une page maximum, ton professionnel et naturel, sans formules creuses.",
+    "- Relie 2 ou 3 éléments précis de mon profil aux missions de l'offre, et montre que je connais l'entreprise.",
+    "- N'invente aucune expérience, aucun chiffre, aucune compétence qui n'est pas dans mon profil.",
+    "- S'il te manque une information importante, pose-moi la question avant de rédiger.",
+    "- Termine par mes dates et ma disponibilité pour un entretien.",
+  ].filter(l => l !== "").join("\n").replace(/\nMON PROFIL/, "\n\nMON PROFIL").replace(/\nCONSIGNES/, "\n\nCONSIGNES").replace(/\nOFFRE/, "\n\nOFFRE");
+}
+
+$("list").addEventListener("click", e => {
+  if (!e.target.classList.contains("letter")) return;
+  const o = data.offers.find(x => x.id === e.target.closest(".offer").dataset.id);
+  if (!o) return;
+  const text = letterPrompt(o);
+  const q = encodeURIComponent(text);
+  // ouverture immédiate (sinon le navigateur bloque la fenêtre), puis copie en secours
+  window.open(q.length < 6000 ? "https://claude.ai/new?q=" + q : "https://claude.ai/new", "_blank", "noopener");
+  const hasProfile = $("profile").value.trim().length > 0;
+  const done = ok => toast((ok ? "Demande copiée. " : "") + (q.length < 6000 ? "Claude s'ouvre avec la demande déjà remplie" : "Claude s'ouvre : collez la demande dans la conversation") + (ok ? " (sinon, collez-la)." : ".") + (hasProfile ? "" : " Pensez à remplir « Mon profil » en bas du site."));
+  try { navigator.clipboard.writeText(text).then(() => done(true), () => done(false)); } catch (err) { done(false); }
+});
 
 $("export").addEventListener("click", async () => {
   try { await navigator.clipboard.writeText(JSON.stringify(track)); $("toolmsg").textContent = "Sauvegarde copiée : collez-la dans une note pour la garder."; }
