@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T15:42:05+00:00",
+ "updated": "2026-11-18T00:44:51+00:00",
  "offers": [
   {
    "id": "562ee1fbe1d330b0",
@@ -54,19 +54,6 @@
    "active": true
   },
   {
-   "id": "24a803935cc211ac",
-   "source": "Capgemini",
-   "company": "Capgemini",
-   "title": "Technicienne/ Technicien Conception mécanique_ Stage Issy-les-Moulineaux, Aix-en-Provence Ingénierie produits et systèmes Stage Etudiants/ Jeunes diplômés",
-   "url": "https://www.capgemini.com/fr-fr/jobs/555454-fr_FR+sap_btp",
-   "location": "",
-   "description": "",
-   "score": 6,
-   "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
    "id": "97bcabcb0786bd7b",
    "source": "AP Racing",
    "company": "AP Racing",
@@ -76,7 +63,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -89,7 +76,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -102,7 +89,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -115,7 +102,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -128,7 +115,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -141,7 +128,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -154,7 +141,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -167,7 +154,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -180,7 +167,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -284,7 +271,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -297,7 +284,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -310,7 +297,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -427,7 +414,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -440,20 +427,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "eacc4f8b3b2629e6",
-   "source": "SEGULA Technologies",
-   "company": "SEGULA Technologies",
-   "title": "Internal Logistics Engineer Atessa CDI INGENIEUR SIMULATION DE FLUX LOGISTIQUE",
-   "url": "https://careers.segulatechnologies.com/fr/annonce/4696883-internal-logistics-engineer-66041-atessa",
-   "location": "",
-   "description": "",
-   "score": 3,
-   "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -466,7 +440,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -479,7 +453,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -492,7 +466,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -505,7 +479,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -518,7 +492,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -531,7 +505,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -544,7 +518,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -557,7 +531,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -570,7 +544,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -583,7 +557,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -596,7 +570,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -609,7 +583,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -622,7 +596,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -635,7 +609,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -648,7 +622,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -661,7 +635,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -674,7 +648,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -687,7 +661,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -700,7 +674,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -713,7 +687,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -726,7 +700,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -739,7 +713,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -752,7 +726,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -765,7 +739,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -778,7 +752,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -791,7 +765,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -804,7 +778,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -817,7 +791,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -830,7 +804,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -843,7 +817,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -856,7 +830,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -869,7 +843,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -882,7 +856,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -895,7 +869,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -908,7 +882,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -921,7 +895,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -934,7 +908,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -947,7 +921,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -960,7 +934,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -973,7 +947,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -986,7 +960,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -999,7 +973,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1012,7 +986,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1025,7 +999,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1038,7 +1012,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1051,7 +1025,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1064,7 +1038,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1077,7 +1051,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1090,7 +1064,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1103,7 +1077,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1116,7 +1090,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1129,7 +1103,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1142,7 +1116,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1155,7 +1129,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1168,7 +1142,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1181,7 +1155,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1194,7 +1168,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1207,7 +1181,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1220,7 +1194,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1233,7 +1207,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1246,7 +1220,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1259,7 +1233,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1272,7 +1246,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1285,7 +1259,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1298,7 +1272,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1311,7 +1285,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1324,7 +1298,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1337,7 +1311,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1350,7 +1324,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1363,7 +1337,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1376,7 +1350,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1389,7 +1363,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1402,7 +1376,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1415,7 +1389,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1428,7 +1402,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1441,7 +1415,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1454,7 +1428,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1467,7 +1441,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1480,7 +1454,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1493,7 +1467,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1506,7 +1480,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1519,7 +1493,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1532,7 +1506,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1545,20 +1519,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "ce5cf4b8bcbcf7c9",
-   "source": "MAHLE (stages)",
-   "company": "MAHLE (stages)",
-   "title": "Internship Business Development Industrial & Special Solutions (non-automotive) (m/f/d)",
-   "url": "https://careers.mahle.com/job/Kornwestheim-Internship-Business-Development-Industrial-&-Special-Solutions-%28non-automotive%29-%28mfd%29-70806/1454612533/",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1571,7 +1532,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1584,7 +1545,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1597,7 +1558,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1610,7 +1571,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1623,7 +1584,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1636,7 +1597,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1649,7 +1610,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1662,7 +1623,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -1675,20 +1636,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "2b382f00b2f37232",
-   "source": "Hendrick Motorsports",
-   "company": "Hendrick Motorsports",
-   "title": "View open jobs & internships , opens in a new tab",
-   "url": "https://hendrick.wd5.myworkdayjobs.com/HMSCareers",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T14:40:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2728,7 +2676,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2741,7 +2689,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2754,7 +2702,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2767,7 +2715,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T05:21:21+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2780,7 +2728,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2793,7 +2741,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2806,7 +2754,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2819,7 +2767,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -2832,7 +2780,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -3963,7 +3911,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -3976,7 +3924,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -3989,7 +3937,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4002,7 +3950,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4015,7 +3963,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4028,7 +3976,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4041,7 +3989,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4054,7 +4002,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4067,7 +4015,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4080,7 +4028,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4093,7 +4041,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4107,32 +4055,6 @@
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
    "last_seen": "2026-11-16T05:31:45+00:00",
-   "active": true
-  },
-  {
-   "id": "21928ebb243d3a4a",
-   "source": "Bertrandt",
-   "company": "Bertrandt",
-   "title": "English (United States)",
-   "url": "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=en_US",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "b10f09203e5c79a6",
-   "source": "Bertrandt",
-   "company": "Bertrandt",
-   "title": "Français (France)",
-   "url": "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=fr_FR",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
    "active": true
   },
   {
@@ -4249,7 +4171,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T14:12:52+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4509,7 +4431,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T14:12:52+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4522,7 +4444,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T15:43:58+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4535,7 +4457,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T15:43:58+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4652,7 +4574,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T23:23:25+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4665,7 +4587,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T23:23:25+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4678,20 +4600,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T23:23:25+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "118ad7f2d3664b1f",
-   "source": "Capgemini",
-   "company": "Capgemini",
-   "title": "Ingénieure / Ingénieur optimisation de maintenance aéronautique - Stage Issy-les-Moulineaux, Aix-en-Provence Ingénierie produits et systèmes Stage Etudiants/ Jeunes diplômés",
-   "url": "https://www.capgemini.com/fr-fr/jobs/567407-fr_FR+sap_btp",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-13T23:23:25+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4704,7 +4613,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4717,7 +4626,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4730,7 +4639,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4743,7 +4652,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4756,7 +4665,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4769,7 +4678,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4782,7 +4691,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4795,7 +4704,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4808,7 +4717,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4821,72 +4730,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T01:44:38+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "a33eeffc8c9c9cce",
-   "source": "BorgWarner",
-   "company": "BorgWarner",
-   "title": "EPM Support Intern (Year-Round)",
-   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4129",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-17T01:44:38+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "9098239d979c9dad",
-   "source": "BorgWarner",
-   "company": "BorgWarner",
-   "title": "Legal Intern",
-   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4015",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-17T01:44:38+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "4b772d61374d4788",
-   "source": "BorgWarner",
-   "company": "BorgWarner",
-   "title": "Supply Chain Intern",
-   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3970",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-17T01:44:38+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "000a1cd1e08b9008",
-   "source": "BorgWarner",
-   "company": "BorgWarner",
-   "title": "Software Test Intern",
-   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4385",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-17T01:44:38+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
-   "active": true
-  },
-  {
-   "id": "ea3cdd6a82400438",
-   "source": "Škoda Auto",
-   "company": "Škoda Auto",
-   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
-   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=c5f9457e-cc8f-4e07-8256-80ace3ff9405",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4899,7 +4743,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4912,7 +4756,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4925,7 +4769,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
   },
   {
@@ -4938,8 +4782,60 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
    "active": true
+  },
+  {
+   "id": "5e3f893a288c45bc",
+   "source": "Škoda Auto",
+   "company": "Škoda Auto",
+   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
+   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=a55461e2-73a6-4448-a006-c084617c584f",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-18T00:44:51+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
+   "active": true
+  },
+  {
+   "id": "c79052664bf288cf",
+   "source": "MAHLE (stages)",
+   "company": "MAHLE (stages)",
+   "title": "Engineering Intern",
+   "url": "https://careers.mahle.com/job/Farmington-Hills-Engineering-Intern-MI-48335/1458216533/",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-18T00:44:51+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
+   "active": true
+  },
+  {
+   "id": "6d85bddb0aadcfff",
+   "source": "Capgemini",
+   "company": "Capgemini",
+   "title": "Consultante / Consultant Innovation & Souveraineté Numérique - Stage Cesson-Sévigné, Lille, Nantes, Toulouse, Lyon + 1 Data et intelligence artificielle Stage Etudiants/ Jeunes diplômés",
+   "url": "https://www.capgemini.com/fr-fr/jobs/594403-fr_FR+sap_btp",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-18T00:44:51+00:00",
+   "last_seen": "2026-11-18T00:44:51+00:00",
+   "active": true
+  },
+  {
+   "id": "24a803935cc211ac",
+   "source": "Capgemini",
+   "company": "Capgemini",
+   "title": "Technicienne/ Technicien Conception mécanique_ Stage Issy-les-Moulineaux, Aix-en-Provence Ingénierie produits et systèmes Stage Etudiants/ Jeunes diplômés",
+   "url": "https://www.capgemini.com/fr-fr/jobs/555454-fr_FR+sap_btp",
+   "location": "",
+   "description": "",
+   "score": 6,
+   "first_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
   },
   {
    "id": "9a2c45ae7ea486b6",
@@ -5119,6 +5015,32 @@
    "score": 3,
    "first_seen": "2026-11-17T01:44:38+00:00",
    "last_seen": "2026-11-17T01:44:38+00:00",
+   "active": false
+  },
+  {
+   "id": "eacc4f8b3b2629e6",
+   "source": "SEGULA Technologies",
+   "company": "SEGULA Technologies",
+   "title": "Internal Logistics Engineer Atessa CDI INGENIEUR SIMULATION DE FLUX LOGISTIQUE",
+   "url": "https://careers.segulatechnologies.com/fr/annonce/4696883-internal-logistics-engineer-66041-atessa",
+   "location": "",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "ce5cf4b8bcbcf7c9",
+   "source": "MAHLE (stages)",
+   "company": "MAHLE (stages)",
+   "title": "Internship Business Development Industrial & Special Solutions (non-automotive) (m/f/d)",
+   "url": "https://careers.mahle.com/job/Kornwestheim-Internship-Business-Development-Industrial-&-Special-Solutions-%28non-automotive%29-%28mfd%29-70806/1454612533/",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
    "active": false
   },
   {
@@ -5719,6 +5641,19 @@
    "active": false
   },
   {
+   "id": "2b382f00b2f37232",
+   "source": "Hendrick Motorsports",
+   "company": "Hendrick Motorsports",
+   "title": "View open jobs & internships , opens in a new tab",
+   "url": "https://hendrick.wd5.myworkdayjobs.com/HMSCareers",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T14:40:30+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
    "id": "c249d3f152833dee",
    "company": "Škoda Auto",
    "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
@@ -6079,6 +6014,32 @@
    "score": 0,
    "first_seen": "2026-11-12T00:15:51+00:00",
    "last_seen": "2026-11-12T00:15:51+00:00",
+   "active": false
+  },
+  {
+   "id": "21928ebb243d3a4a",
+   "source": "Bertrandt",
+   "company": "Bertrandt",
+   "title": "English (United States)",
+   "url": "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=en_US",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "b10f09203e5c79a6",
+   "source": "Bertrandt",
+   "company": "Bertrandt",
+   "title": "Français (France)",
+   "url": "https://bertrandt.jobs.hr.cloud.sap/search/?q=Praktikum&locale=fr_FR",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
    "active": false
   },
   {
@@ -6693,6 +6654,19 @@
    "active": false
   },
   {
+   "id": "118ad7f2d3664b1f",
+   "source": "Capgemini",
+   "company": "Capgemini",
+   "title": "Ingénieure / Ingénieur optimisation de maintenance aéronautique - Stage Issy-les-Moulineaux, Aix-en-Provence Ingénierie produits et systèmes Stage Etudiants/ Jeunes diplômés",
+   "url": "https://www.capgemini.com/fr-fr/jobs/567407-fr_FR+sap_btp",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-13T23:23:25+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
    "id": "fb011307a1b79caf",
    "source": "Škoda Auto",
    "company": "Škoda Auto",
@@ -7083,6 +7057,58 @@
    "active": false
   },
   {
+   "id": "a33eeffc8c9c9cce",
+   "source": "BorgWarner",
+   "company": "BorgWarner",
+   "title": "EPM Support Intern (Year-Round)",
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4129",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-17T01:44:38+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "9098239d979c9dad",
+   "source": "BorgWarner",
+   "company": "BorgWarner",
+   "title": "Legal Intern",
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4015",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-17T01:44:38+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "4b772d61374d4788",
+   "source": "BorgWarner",
+   "company": "BorgWarner",
+   "title": "Supply Chain Intern",
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3970",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-17T01:44:38+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "000a1cd1e08b9008",
+   "source": "BorgWarner",
+   "company": "BorgWarner",
+   "title": "Software Test Intern",
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4385",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-17T01:44:38+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
    "id": "36b18ae06c7c1726",
    "source": "Škoda Auto",
    "company": "Škoda Auto",
@@ -7094,6 +7120,19 @@
    "first_seen": "2026-11-17T01:44:38+00:00",
    "last_seen": "2026-11-17T01:44:38+00:00",
    "active": false
+  },
+  {
+   "id": "ea3cdd6a82400438",
+   "source": "Škoda Auto",
+   "company": "Škoda Auto",
+   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
+   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=c5f9457e-cc8f-4e07-8256-80ace3ff9405",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-17T15:42:05+00:00",
+   "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
   }
  ],
  "runs": [
@@ -7102,399 +7141,399 @@
    "ok": false,
    "message": "clés Adzuna manquantes (secrets ADZUNA_APP_ID et ADZUNA_APP_KEY)",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "AP Racing",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Team WRT",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "United Autosports",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Iron Lynx",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Pankl Racing (Allemagne)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Pankl Racing (Autriche)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Prodrive",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "X-raid",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Manthey Racing",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "KW automotive",
    "ok": true,
    "message": "5 annonces lues",
    "found": 5,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "HORSE Powertrain",
    "ok": true,
    "message": "17 annonces lues",
    "found": 17,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Cosworth",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Hankook (Europe)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Toyota Gazoo Racing Europe",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Alpine Racing (Workday)",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://alliancewd.wd3.myworkdayjobs.com/wday/cxs/alliancewd/alpine-racing-careers/jobs",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Hendrick Motorsports",
    "ok": true,
-   "message": "1 annonces lues",
-   "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Multimatic (Workday)",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://multimatic.wd10.myworkdayjobs.com/wday/cxs/multimatic/MMEC/jobs",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Dana (étudiants)",
    "ok": true,
    "message": "13 annonces lues",
    "found": 13,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "KTM (stages)",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Ducati",
    "ok": true,
    "message": "6 annonces lues",
    "found": 6,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Ferrari",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Škoda Auto",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "AVL (stages et thèses)",
    "ok": true,
    "message": "11 annonces lues",
    "found": 11,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "MAHLE (stages)",
    "ok": true,
    "message": "33 annonces lues",
    "found": 33,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Garrett Motion",
    "ok": true,
    "message": "10 annonces lues",
    "found": 10,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Marelli",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "BorgWarner",
    "ok": true,
-   "message": "6 annonces lues",
-   "found": 6,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "message": "2 annonces lues",
+   "found": 2,
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Stratasys",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Sandvik",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Syensqo",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Applus+ IDIADA",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "HORIBA",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "FEV",
    "ok": true,
    "message": "11 annonces lues",
    "found": 11,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Akkodis",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Bertrandt",
    "ok": true,
-   "message": "2 annonces lues",
-   "found": 2,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Expleo",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "ALTEN",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Rheinmetall",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Schaeffler",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Valeo",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://valeo.wd3.myworkdayjobs.com/wday/cxs/valeo/valeo_jobs/jobs",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Airbus",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "ATR",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Michelin",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://michelinhr.wd3.myworkdayjobs.com/wday/cxs/michelinhr/Michelin/jobs",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Safran",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Dassault Aviation",
    "ok": true,
    "message": "10 annonces lues",
    "found": 10,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Stellantis",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Forvia",
    "ok": false,
    "message": "accès refusé par le robots.txt du site",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "MBDA",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "KNDS",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Hexcel",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "UTAC",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "SEGULA Technologies",
    "ok": true,
-   "message": "1 annonces lues",
-   "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Capgemini",
    "ok": true,
-   "message": "3 annonces lues",
-   "found": 3,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "message": "2 annonces lues",
+   "found": 2,
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "IAV",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "BWI Group",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   },
   {
    "company": "Bombardier (ingénierie)",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-17T15:42:05+00:00"
+   "last_run": "2026-11-18T00:44:51+00:00"
   }
  ]
 }
