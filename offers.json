@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T07:30:23+00:00",
+ "updated": "2026-11-26T21:07:59+00:00",
  "offers": [
   {
    "id": "562ee1fbe1d330b0",
@@ -63,7 +63,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -76,7 +76,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -89,7 +89,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -102,7 +102,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -115,7 +115,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -128,7 +128,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -141,7 +141,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -245,7 +245,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -258,7 +258,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -366,19 +366,6 @@
    "active": true
   },
   {
-   "id": "f9c7cb1500260ee5",
-   "source": "MAHLE (stages)",
-   "company": "MAHLE (stages)",
-   "title": "Internship in Hardware Development, Validation and Simulation, Wireless Charging 22kW+ (m/f/d)",
-   "url": "https://careers.mahle.com/job/Stuttgart-Internship-in-Hardware-Development%2C-Validation-and-Simulation%2C-Wireless-Charging-22kW%2B-%28mfd%29-70376/1439050633/",
-   "location": "",
-   "description": "",
-   "score": 3,
-   "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
    "id": "7ffb6d991f505669",
    "source": "MAHLE (stages)",
    "company": "MAHLE (stages)",
@@ -388,7 +375,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -401,7 +388,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-18T15:21:13+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -414,7 +401,7 @@
    "description": "",
    "score": 3,
    "first_seen": "2026-11-20T15:04:34+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -427,7 +414,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -440,7 +427,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -453,7 +440,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -466,7 +453,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -479,7 +466,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -492,7 +479,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -505,7 +492,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -518,7 +505,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -531,7 +518,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -544,7 +531,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -557,7 +544,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -570,20 +557,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
-   "id": "4f2a05c431a3de41",
-   "source": "HORSE Powertrain",
-   "company": "HORSE Powertrain",
-   "title": "Internship IS/IT SAP",
-   "url": "https://jobs.horse-powertrain.com/jobs/8588529-internship-is-it-sap",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -596,7 +570,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -609,7 +583,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -622,7 +596,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -635,7 +609,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -648,7 +622,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -661,7 +635,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -674,7 +648,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -687,7 +661,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -700,7 +674,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -713,7 +687,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -726,7 +700,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -739,7 +713,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -752,7 +726,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -765,7 +739,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -778,7 +752,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -791,7 +765,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -804,7 +778,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -817,7 +791,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -830,7 +804,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -843,7 +817,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -856,7 +830,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -869,7 +843,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -882,7 +856,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -895,7 +869,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -908,7 +882,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -921,7 +895,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -934,7 +908,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -947,7 +921,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -960,7 +934,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -973,7 +947,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -986,7 +960,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -999,7 +973,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1012,7 +986,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1025,7 +999,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1038,7 +1012,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1051,7 +1025,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1064,7 +1038,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1077,7 +1051,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1090,7 +1064,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1103,7 +1077,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1116,7 +1090,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1129,7 +1103,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1142,7 +1116,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1155,7 +1129,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1168,7 +1142,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1181,7 +1155,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1194,7 +1168,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1207,7 +1181,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1220,7 +1194,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1233,7 +1207,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1246,7 +1220,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1259,7 +1233,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1272,7 +1246,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1285,7 +1259,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1298,7 +1272,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1311,7 +1285,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1324,7 +1298,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1337,7 +1311,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1350,7 +1324,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1363,7 +1337,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1376,7 +1350,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1389,7 +1363,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1402,7 +1376,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1415,7 +1389,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1428,7 +1402,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1441,7 +1415,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1454,7 +1428,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1467,7 +1441,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1480,7 +1454,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1493,7 +1467,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1506,7 +1480,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1519,7 +1493,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1532,7 +1506,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1545,7 +1519,20 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
+   "active": true
+  },
+  {
+   "id": "6eb9c54effe0fc49",
+   "source": "BorgWarner",
+   "company": "BorgWarner",
+   "title": "Professional Internship Information Technology - Client Support (m/f/d)",
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4421",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -1558,7 +1545,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-09T14:40:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -2598,7 +2585,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -2611,7 +2598,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-10T19:28:12+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -2624,7 +2611,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -2637,7 +2624,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -2650,7 +2637,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -2663,7 +2650,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-11T21:58:30+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3772,19 +3759,6 @@
    "active": true
   },
   {
-   "id": "ada26dabc61ccf78",
-   "source": "Dassault Aviation",
-   "company": "Dassault Aviation",
-   "title": "Stage : Chef de projet Communication Marque Employeur et Intégration Groupe F/H",
-   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-chef-de-projet-communication-marque-employeur-et-integration-groupe-f-h_15993.aspx",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
    "id": "d9c5950cab9a4430",
    "source": "Dassault Aviation",
    "company": "Dassault Aviation",
@@ -3794,7 +3768,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3807,7 +3781,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3820,7 +3794,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3833,7 +3807,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3846,7 +3820,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3898,7 +3872,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3911,7 +3885,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3924,7 +3898,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3937,7 +3911,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -3950,7 +3924,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-12T11:20:56+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4288,7 +4262,20 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T14:12:52+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
+   "active": true
+  },
+  {
+   "id": "20b0c22044d7c1cd",
+   "source": "ALTEN",
+   "company": "ALTEN",
+   "title": "Stage - Contrôleur de gestion FP&A H/F",
+   "url": "https://alten-career.talent-soft.com/job/job-stage-controleur-de-gestion-fp-a-h-f_4569.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-13T14:12:52+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4301,7 +4288,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T15:43:58+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4418,7 +4405,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T23:23:25+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4431,7 +4418,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-13T23:23:25+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4444,7 +4431,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4457,7 +4444,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4470,7 +4457,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4483,7 +4470,20 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
+   "active": true
+  },
+  {
+   "id": "f8205b7b20b055fa",
+   "source": "MAHLE (stages)",
+   "company": "MAHLE (stages)",
+   "title": "Internship Engagement & Belonging (m/f/d)",
+   "url": "https://careers.mahle.com/job/Stuttgart-Internship-Engagement-&-Belonging-%28mfd%29-70376/1439068433/",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-16T15:12:31+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4496,7 +4496,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4509,7 +4509,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4522,20 +4522,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-18T00:44:51+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
-   "id": "6d85bddb0aadcfff",
-   "source": "Capgemini",
-   "company": "Capgemini",
-   "title": "Consultante / Consultant Innovation & Souveraineté Numérique - Stage Cesson-Sévigné, Lille, Nantes, Lyon, Toulouse + 1 Data et intelligence artificielle Stage Etudiants/ Jeunes diplômés",
-   "url": "https://www.capgemini.com/fr-fr/jobs/594403-fr_FR+sap_btp",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-18T00:44:51+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4548,7 +4535,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-18T15:21:13+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4561,7 +4548,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-18T15:21:13+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4574,7 +4561,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-19T15:27:14+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4587,7 +4574,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-20T00:27:01+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4600,7 +4587,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-20T15:04:34+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4613,7 +4600,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-20T15:04:34+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4626,7 +4613,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-20T23:47:40+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4639,7 +4626,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-20T23:47:40+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4652,7 +4639,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-20T23:47:40+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4665,33 +4652,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-21T06:13:24+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
-   "id": "fa270bb4e3eb9e9d",
-   "source": "BorgWarner",
-   "company": "BorgWarner",
-   "title": "Product Engineering Intern",
-   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3060",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-23T23:36:08+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
-   "id": "9d3808f06a2a02ab",
-   "source": "ALTEN",
-   "company": "ALTEN",
-   "title": "Werkstudent Financial & Project Controlling (all gender)",
-   "url": "https://alten-career.talent-soft.com/job/job-werkstudent-financial-project-controlling-all-gender-_4543.aspx",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-23T23:36:08+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4704,7 +4665,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-24T09:02:32+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4717,7 +4678,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-25T07:40:16+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4730,7 +4691,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-25T07:40:16+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4743,7 +4704,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-25T21:20:59+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4756,20 +4717,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-25T21:20:59+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
-   "active": true
-  },
-  {
-   "id": "999fee8725dcee1a",
-   "source": "Škoda Auto",
-   "company": "Škoda Auto",
-   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
-   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=e42dc01a-02ee-4b7f-b857-c40c642e1831",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-26T07:30:23+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4782,7 +4730,7 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-26T07:30:23+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -4795,20 +4743,46 @@
    "description": "",
    "score": 0,
    "first_seen": "2026-11-26T07:30:23+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
-   "id": "cd2dfb17f110b840",
-   "source": "Capgemini",
-   "company": "Capgemini",
-   "title": "Ingénieure DevOps / Ingénieur DevOps - Stage Lyon, Issy-les-Moulineaux Gestion des infrastructures Cloud Stage Etudiants/ Jeunes diplômés",
-   "url": "https://www.capgemini.com/fr-fr/jobs/561002-fr_FR+sap_btp",
+   "id": "d96ec2c41ed90df9",
+   "source": "Manthey Racing",
+   "company": "Manthey Racing",
+   "title": "Werkstudent Travel & Event Renneinsätze (m/w/d) Meuspath Voll- oder Teilzeit Werkstudierende",
+   "url": "https://manthey-racing-gmbh.jobs.personio.de/job/1011071",
    "location": "",
    "description": "",
    "score": 0,
-   "first_seen": "2026-11-26T07:30:23+00:00",
-   "last_seen": "2026-11-26T07:30:23+00:00",
+   "first_seen": "2026-11-26T21:07:59+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
+   "active": true
+  },
+  {
+   "id": "f462c83e8c84a8b7",
+   "source": "Škoda Auto",
+   "company": "Škoda Auto",
+   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
+   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=c3fc4111-40be-42a5-b820-9fae4d647698",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-26T21:07:59+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
+   "active": true
+  },
+  {
+   "id": "ebe42768ad2bcfce",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage : Assistant(e) chargé de communication digitale F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-assistant-e-charge-de-communication-digitale-f-h_16084.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-26T21:07:59+00:00",
+   "last_seen": "2026-11-26T21:07:59+00:00",
    "active": true
   },
   {
@@ -5031,6 +5005,19 @@
    "active": false
   },
   {
+   "id": "f9c7cb1500260ee5",
+   "source": "MAHLE (stages)",
+   "company": "MAHLE (stages)",
+   "title": "Internship in Hardware Development, Validation and Simulation, Wireless Charging 22kW+ (m/f/d)",
+   "url": "https://careers.mahle.com/job/Stuttgart-Internship-in-Hardware-Development%2C-Validation-and-Simulation%2C-Wireless-Charging-22kW%2B-%28mfd%29-70376/1439050633/",
+   "location": "",
+   "description": "",
+   "score": 3,
+   "first_seen": "2026-11-16T15:12:31+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
+   "active": false
+  },
+  {
    "id": "166e47b197e5fe5d",
    "source": "BorgWarner",
    "company": "BorgWarner",
@@ -5054,6 +5041,19 @@
    "score": 3,
    "first_seen": "2026-11-17T15:42:05+00:00",
    "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "4f2a05c431a3de41",
+   "source": "HORSE Powertrain",
+   "company": "HORSE Powertrain",
+   "title": "Internship IS/IT SAP",
+   "url": "https://jobs.horse-powertrain.com/jobs/8588529-internship-is-it-sap",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-09T13:53:47+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
    "active": false
   },
   {
@@ -5517,19 +5517,6 @@
    "company": "Dana (étudiants)",
    "title": "Stagiaire - logiciels embarqués",
    "url": "https://jobs.dana.com/job/Boucherville-Stagiaire-logiciels-embarqu%C3%A9s-Qu%C3%A9b-Canada/1444676300/",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-09T13:53:47+00:00",
-   "last_seen": "2026-11-11T13:48:39+00:00",
-   "active": false
-  },
-  {
-   "id": "6eb9c54effe0fc49",
-   "source": "BorgWarner",
-   "company": "BorgWarner",
-   "title": "Professional Internship Information Technology - Client Support (m/f/d)",
-   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-4421",
    "location": "",
    "description": "",
    "score": 0,
@@ -6147,6 +6134,19 @@
    "active": false
   },
   {
+   "id": "ada26dabc61ccf78",
+   "source": "Dassault Aviation",
+   "company": "Dassault Aviation",
+   "title": "Stage : Chef de projet Communication Marque Employeur et Intégration Groupe F/H",
+   "url": "https://dassault-aviation-cand.talent-soft.com/offre-de-emploi/emploi-stage-chef-de-projet-communication-marque-employeur-et-integration-groupe-f-h_15993.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-12T11:20:56+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
+   "active": false
+  },
+  {
    "id": "a9c2180ee9f6e88c",
    "source": "Dassault Aviation",
    "company": "Dassault Aviation",
@@ -6732,19 +6732,6 @@
    "active": false
   },
   {
-   "id": "20b0c22044d7c1cd",
-   "source": "ALTEN",
-   "company": "ALTEN",
-   "title": "Stage - Contrôleur de gestion FP&A H/F",
-   "url": "https://alten-career.talent-soft.com/job/job-stage-controleur-de-gestion-fp-a-h-f_4569.aspx",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-13T14:12:52+00:00",
-   "last_seen": "2026-11-16T05:31:45+00:00",
-   "active": false
-  },
-  {
    "id": "4d160d3f845a2c5e",
    "source": "Valeo",
    "company": "Valeo",
@@ -6997,19 +6984,6 @@
    "company": "MAHLE (stages)",
    "title": "Internship Global Talent & Leadership Development (m/f/d)",
    "url": "https://careers.mahle.com/job/Stuttgart-Internship-Global-Talent-&-Leadership-Development-%28mfd%29-70376/1439051233/",
-   "location": "",
-   "description": "",
-   "score": 0,
-   "first_seen": "2026-11-16T15:12:31+00:00",
-   "last_seen": "2026-11-25T21:20:59+00:00",
-   "active": false
-  },
-  {
-   "id": "f8205b7b20b055fa",
-   "source": "MAHLE (stages)",
-   "company": "MAHLE (stages)",
-   "title": "Internship Engagement & Belonging (m/f/d)",
-   "url": "https://careers.mahle.com/job/Stuttgart-Internship-Engagement-&-Belonging-%28mfd%29-70376/1439068433/",
    "location": "",
    "description": "",
    "score": 0,
@@ -7418,6 +7392,19 @@
    "score": 0,
    "first_seen": "2026-11-17T15:42:05+00:00",
    "last_seen": "2026-11-17T15:42:05+00:00",
+   "active": false
+  },
+  {
+   "id": "6d85bddb0aadcfff",
+   "source": "Capgemini",
+   "company": "Capgemini",
+   "title": "Consultante / Consultant Innovation & Souveraineté Numérique - Stage Cesson-Sévigné, Lille, Nantes, Lyon, Toulouse + 1 Data et intelligence artificielle Stage Etudiants/ Jeunes diplômés",
+   "url": "https://www.capgemini.com/fr-fr/jobs/594403-fr_FR+sap_btp",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-18T00:44:51+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
    "active": false
   },
   {
@@ -7837,6 +7824,32 @@
    "active": false
   },
   {
+   "id": "fa270bb4e3eb9e9d",
+   "source": "BorgWarner",
+   "company": "BorgWarner",
+   "title": "Product Engineering Intern",
+   "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3060",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-23T23:36:08+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
+   "active": false
+  },
+  {
+   "id": "9d3808f06a2a02ab",
+   "source": "ALTEN",
+   "company": "ALTEN",
+   "title": "Werkstudent Financial & Project Controlling (all gender)",
+   "url": "https://alten-career.talent-soft.com/job/job-werkstudent-financial-project-controlling-all-gender-_4543.aspx",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-23T23:36:08+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
+   "active": false
+  },
+  {
    "id": "26e8c209503bbede",
    "source": "BorgWarner",
    "company": "BorgWarner",
@@ -7978,6 +7991,32 @@
    "first_seen": "2026-11-25T21:20:59+00:00",
    "last_seen": "2026-11-25T21:20:59+00:00",
    "active": false
+  },
+  {
+   "id": "999fee8725dcee1a",
+   "source": "Škoda Auto",
+   "company": "Škoda Auto",
+   "title": "Business trainee program EN Economics and Corporate Finance, Procurement, Product Management, Sales and Marketing Mladá Boleslav View",
+   "url": "https://skoda-auto.jobs.cz/position-detail?r=detail&id=2001513798&impressionId=e42dc01a-02ee-4b7f-b857-c40c642e1831",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
+   "active": false
+  },
+  {
+   "id": "cd2dfb17f110b840",
+   "source": "Capgemini",
+   "company": "Capgemini",
+   "title": "Ingénieure DevOps / Ingénieur DevOps - Stage Lyon, Issy-les-Moulineaux Gestion des infrastructures Cloud Stage Etudiants/ Jeunes diplômés",
+   "url": "https://www.capgemini.com/fr-fr/jobs/561002-fr_FR+sap_btp",
+   "location": "",
+   "description": "",
+   "score": 0,
+   "first_seen": "2026-11-26T07:30:23+00:00",
+   "last_seen": "2026-11-26T07:30:23+00:00",
+   "active": false
   }
  ],
  "runs": [
@@ -7986,399 +8025,399 @@
    "ok": false,
    "message": "clés Adzuna manquantes (secrets ADZUNA_APP_ID et ADZUNA_APP_KEY)",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "AP Racing",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Team WRT",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "United Autosports",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Iron Lynx",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Pankl Racing (Allemagne)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Pankl Racing (Autriche)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Prodrive",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "X-raid",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Manthey Racing",
    "ok": true,
-   "message": "2 annonces lues",
-   "found": 2,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "message": "3 annonces lues",
+   "found": 3,
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "KW automotive",
    "ok": true,
    "message": "5 annonces lues",
    "found": 5,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "HORSE Powertrain",
    "ok": true,
-   "message": "15 annonces lues",
-   "found": 15,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "message": "14 annonces lues",
+   "found": 14,
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Cosworth",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Hankook (Europe)",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Toyota Gazoo Racing Europe",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Alpine Racing (Workday)",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://alliancewd.wd3.myworkdayjobs.com/wday/cxs/alliancewd/alpine-racing-careers/jobs",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Hendrick Motorsports",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Multimatic (Workday)",
    "ok": true,
    "message": "47 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Dana (étudiants)",
    "ok": true,
    "message": "14 annonces lues",
    "found": 14,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "KTM (stages)",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Ducati",
    "ok": true,
    "message": "6 annonces lues",
    "found": 6,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Ferrari",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Škoda Auto",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "AVL (stages et thèses)",
    "ok": true,
    "message": "9 annonces lues",
    "found": 9,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "MAHLE (stages)",
    "ok": true,
    "message": "33 annonces lues",
    "found": 33,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Garrett Motion",
    "ok": true,
    "message": "10 annonces lues",
    "found": 10,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Marelli",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "BorgWarner",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Stratasys",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Sandvik",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Syensqo",
    "ok": true,
    "message": "2 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Applus+ IDIADA",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "HORIBA",
    "ok": true,
    "message": "4 annonces lues",
    "found": 4,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "FEV",
    "ok": true,
    "message": "11 annonces lues",
    "found": 11,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Akkodis",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Bertrandt",
    "ok": true,
    "message": "5 annonces lues",
    "found": 5,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Expleo",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "ALTEN",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Rheinmetall",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Schaeffler",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Valeo",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://valeo.wd3.myworkdayjobs.com/wday/cxs/valeo/valeo_jobs/jobs",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Airbus",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "ATR",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://ag.wd3.myworkdayjobs.com/wday/cxs/ag/Airbus/jobs",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Michelin",
    "ok": false,
    "message": "429 Client Error: Too Many Requests for url: https://michelinhr.wd3.myworkdayjobs.com/wday/cxs/michelinhr/Michelin/jobs",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Safran",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Dassault Aviation",
    "ok": true,
    "message": "10 annonces lues",
    "found": 10,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Stellantis",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Forvia",
    "ok": false,
    "message": "accès refusé par le robots.txt du site",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "MBDA",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "KNDS",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Hexcel",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "UTAC",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "SEGULA Technologies",
    "ok": true,
    "message": "0 annonces lues",
    "found": 0,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Capgemini",
    "ok": true,
-   "message": "2 annonces lues",
-   "found": 2,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "message": "0 annonces lues",
+   "found": 0,
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "IAV",
    "ok": true,
    "message": "2 annonces lues",
    "found": 2,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "BWI Group",
    "ok": true,
    "message": "3 annonces lues",
    "found": 3,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   },
   {
    "company": "Bombardier (ingénierie)",
    "ok": true,
    "message": "1 annonces lues",
    "found": 1,
-   "last_run": "2026-11-26T07:30:23+00:00"
+   "last_run": "2026-11-26T21:07:59+00:00"
   }
  ]
 }
